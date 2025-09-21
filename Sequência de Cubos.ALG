@@ -1,21 +1,22 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Disciplina   : [Algoritmos]
+// Professor   : SabhazÃ£o
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Toda a equipe Eagle, mas foi o Fernando quem fez sozinho
 // Data atual  : 21/09/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
    i, numero: inteiro
    cubo: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-   enquanto numero <= 10 faça
-   escreval ("digite o número")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+   enquanto numero <= 10 faÃ§a
+   escreval ("digite o nÃºmero")
    leia (numero)
    cubo <- numero^3
-   escreval ("O cubo do número é:", cubo)
+   escreval ("O cubo do nÃºmero Ã©:", cubo)
    fimenquanto
+
 
 Fimalgoritmo
