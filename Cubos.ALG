@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "Cubos"
 // Disciplina   : [Algoritmos]
 // Professor   : Sabhazão
 // Descrição   : Aqui você descreve o que o programa faz! (função)
