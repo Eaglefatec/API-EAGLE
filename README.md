@@ -45,8 +45,15 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 
 | Rank | Prioridade | User Story                                                                                                                                                                                                     | Story Points | Sprint | Requisito do Cliente | Status |
 | :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :------------------: | :----: |
-|   1  |    Alta    | Como usuário da calculadora, quero gerar a sequência de Fibonacci mostrando a quantidade de termos que desejar.                                                                                            |      14      |    1   |          R02         |    ✅   |
-|   2  |    Alta    | Como usuário da calculadora, quero informar uma determinada posição da sequência triangular e obter o valor correspondente àquela posição                                                                      |      47      |    1   |        R01/R09       |    ✅   |
+|   1  |    Alta    | Como usuário da calculadora, quero informar uma determinada posição da sequência triangular e obter o valor correspondente àquela posição.                                                                                            |      14      |    1   |          US2         |    Sprint 1   |
+|   2  |    Alta    | Como usuário da calculadora, quero calcular o fatorial de um determinado número                                                                      |      47      |    1   |       US4       |    Sprint 1   |
+|   2  |    Alta    | Como usuário da calculadora, quero inserir o primeiro termo e a razão e o número do termo que deseja descobrir.                                                                      |      47      |    1   |       US7       |    Sprint 1   |
+|   2  |    Média    | Como usuário da calculadora, quero determinar o quadrado de qualquer enésima parte até o resultado seja igual ou menor ao número 100                                                                     |      47      |    1   |       US5       |    Aguardando   |
+|   2  |    Média    | Como usuário da calculadora, quero determinar o cubo de qualquer enésima parte até o valor 1000.                                                                      |      47      |    1   |       US6       |    Aguardando   |
+|   2  |    Média    | Como usuário da calculadora, quero definir a enésima parte e o padrão que deseja acrescer.                                                                      |      47      |    1   |       US8       |    Aguardando   |
+|   2  |    Baixa    | Como usuário da calculadora, quero gerar a sequência de Fibonacci mostrando a quantidade de termos que desejar.                                                                      |      47      |    1   |       US1       |    Aguardando   |
+|   2  |    Baixa    | Como usuário da calculadora, quero gerar uma sequência de números primos até o decimo termo.                                                                      |      47      |    1   |       US3       |    Aguardando   |
+|   2  |    Baixa    | Como usuário da calculadora, quero gerar a sequência de Tribonacci mostrando a quantidade de termos que desejar.                                                                      |      47      |    1   |       US9       |    Aguardando   |
 
 ---
 
@@ -54,16 +61,12 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 
 * User Stories com **Critérios de Aceitação**
 * Subtarefas divididas **a partir das US**
-* Design no **Figma**
-* Modelagem do **Banco de Dados**
-* Diagrama de **Rotas**
-* Banco de Dados **Vetorizado** do Cliente
+* GitHub
 
 ## 🏆 DoD - Definition of Done <a id="dod"></a>
 
 * Manual de Usuário
 * Manual da Aplicação
-* Documentação da API (Application Programming Interface)
 * Código completo
 * Vídeos de cada etapa de entrega
 
@@ -80,16 +83,12 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 ## 💻 Tecnologias <a id="tecnologias"></a>
 
 <h4 align="center">
- <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a>
- <a href="https://fastapi.tiangolo.com/"><img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/></a>
- <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"></a>
- <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D"/></a>
- <a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"></a>
- <a href="https://www.trychroma.com/"><img src="https://img.shields.io/badge/ChromaDB-FF6B00?style=for-the-badge&logo=chroma&logoColor=white"></a>
- <a href="https://www.atlassian.com/software/jira"><img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"/></a>
- <a href="https://miro.com/"><img src="https://img.shields.io/badge/Miro-1A1A1A?style=for-the-badge&logo=miro&logoColor=white"/></a>
- <a href="https://github.com/"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
- <a href="https://www.figma.com/"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/></a>
+<ul>
+<li>Visual G</li>
+<li>GitHub</li>
+<li>Planilha Google Docs</li>
+
+</ul>
 </h4>
 
 ## 📖 Manual de Instalação <a id="manual"></a>
@@ -98,76 +97,36 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 
 - Git ([Download](https://git-scm.com/downloads))
 
-- Python 3.9+ ([Download](https://www.python.org/downloads/))
+- Visual_G ([Download](https://sourceforge.net/projects/visualg30/))
 
-- Node.js 16+ ([Download](https://nodejs.org/en/download))
+- Projeto Kanban ([Acesso](https://github.com/orgs/Eaglefatec/projects/2))
 
-- Poetry (opcional para o backend) ([Download](https://python-poetry.org/))
+- Planilha MVP ([Acesso](https://docs.google.com/spreadsheets/d/1M1ZwghbbgrjCUZZuRtn6s-Hxy1AdoOSOHDhvVaa5RNc/edit?gid=1289789083#gid=1289789083))
+
 
 ---
 
 ### 1. Clonar o Repositório Principal
 
 ```bash
-git clone --recurse-submodules https://github.com/BuzzTech-API/API_ADS_6SEMESTE_2025.1.git
-cd API_ADS_6SEMESTE_2025.1
-```
-
-> **Observação:** Se já tiver clonado sem os submódulos, execute:
-
-```
-git submodule update --init --recursive
+git clone https://github.com/Eaglefatec/API-EAGLE.git
 ```
 
 ---
 
-### 2. Configuração do Backend (auxia-backend)
+### 2. Abrir Visual_G
 
-**1° Adicione as variáveis no .env**
+**1° Baixe o Visual_G no link fornecido acima**
 
-**2° Inicialize o Banco de dados MongoDB no localhost:**
+**2° Extraia o conteúdo do zip**
 
-**3° Coloque a base de dados vetorizada ./client dentro da raíz do backen:**
-
-**4° Instale e Inicie a aplicação:**
-
-**Opção A: Com Poetry**
-
-```bash
-cd ./auxia-backend
-poetry shell
-poetry install
-make run
-```
-
-**Opção B: Com Ambiente Virtual Python**
-
-```bash
-cd ./auxia-backend
-python3 -m venv venv
-source venv/bin/activate # se você usa linux
-venv/Scripts/activate 	 # se você usa windows
-pip install -r requirements.txt
-fastapi dev ./auxia/main.py
-```
-
-**Saída Esperada:**
-<br>
-Servidor rodando em `http://localhost:8000` (acesse `http://localhost:8000/docs` para a UI do Swagger).
+**3° Execute o Visual_G**
 
 ---
 
-### 3. Configuração do Frontend (auxia-frontend)
+### 3. Executar o programa
 
-```bash
-cd ../auxia-frontend/auxia
-npm install
-npm run dev
-```
-
-**Saída Esperada:**
-<br>
-Frontend rodando em `http://localhost:5173`.
+**1° No Visual_G, abra o arquivo CALCULADORA.ARG presente no nosso GITHUB e baixado pelo gitclone**
 
 ## 🎓 Equipe <a id="equipe"></a>
 
@@ -182,50 +141,50 @@ Frontend rodando em `http://localhost:5173`.
     <tr>
       <td>Renan Diniz</td>
       <td>Product Owner</td>
-      <td><a href="https://github.com/Ivan-Duarte"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
+      <td><a href="https://github.com/renandiniz8"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
       <td><a href="https://www.linkedin.com/in/ivan-duarte-982532217"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
     <tr>
       <td>Alessandro Cabral</td>
       <td>Scrum Master</td>
-      <td><a href="https://github.com/lima2206"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="https://www.linkedin.com/in/vitor-spricigo-lima-84a377184"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+      <td><a href="https://github.com/alessandrocabralfatec"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
+      <td><a href="https://br.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
     <tr>
       <td>Bruna Matsuda</td>
       <td>Desenvolvedor</td>
-      <td><a href="https://github.com/KhovetS2"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="https://www.linkedin.com/in/isaque-elis-da-silva-2a4087226/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+      <td><a href="https://github.com/brunakaory"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
+      <td><a href="https://br.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
     <tr>
       <td>Danieli Gibin</td>
       <td>Desenvolvedor</td>
-      <td><a href="https://github.com/Joice-Araujo"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="https://www.linkedin.com/in/joice-aparecida-581226250/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+      <td><a href="https://github.com/Ribeiro199"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
+      <td><a href="https://br.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
     <tr>
       <td>Helder Costa</td>
       <td>Desenvolvedor</td>
-      <td><a href="https://github.com/dodekafonos"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="http://linkedin.com/in/jonas-alves"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+      <td><a href="https://github.com/helderfcosta"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
+      <td><a href="https://br.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
     <tr>
       <td>Bruno Barreto</td>
       <td>Desenvolvedor</td>
-      <td><a href="https://github.com/PedrohDavi"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="https://www.linkedin.com/in/pedro-davi-jobs/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+      <td><a href="https://github.com/bbarreto51"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
+      <td><a href="https://br.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
     <tr>
       <td>Marcelo Ribeiro</td>
       <td>Desenvolvedor</td>
-      <td><a href="https://github.com/Rafael-Motta"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="https://www.linkedin.com/in/rafaelmotta97"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+      <td><a href="https://github.com/Ribeiro199"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
+      <td><a href="https://br.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
     <tr>
       <td>Fernando Montero</td>
       <td>Desenvolvedor</td>
-      <td><a href="https://github.com/Rafael-Motta"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="https://www.linkedin.com/in/rafaelmotta97"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+      <td><a href="https://github.com/fernandocosta45"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
+      <td><a href="https://br.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
   </table>
 </div>
