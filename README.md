@@ -1,6 +1,6 @@
 # API 1º Semestre Banco de Dados
 
-# EAGLE
+# CALCULADORA EAGLE
 
 
 
@@ -42,14 +42,14 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 | Rank | Prioridade | User Story| Story Points | Sprint | Requisito do Cliente | Status |
 | :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :------------------: | :----: |
 |   1  |    Alta    | Como usuário da calculadora, quero informar uma determinada posição da sequência triangular e obter o valor correspondente àquela posição.|      2      |    1   |          US2    |    Sprint 1   |
-|   2  |    Alta    | Como usuário da calculadora, quero calcular o fatorial de um determinado número            |      2      |    1   |       US4       |    Sprint 1   |
-|   3  |    Alta    | Como usuário da calculadora, quero inserir o primeiro termo e a razão e o número do termo que deseja descobrir.       |      2      |    1   |       US7       |    Sprint 1   |
-|   4  |    Média    | Como usuário da calculadora, quero determinar o quadrado de qualquer enésima parte até o resultado seja igual ou menor ao número 100                                                                     |      2      |    1   |       US5       |    Aguardando   |
-|   5  |    Média    | Como usuário da calculadora, quero determinar o cubo de qualquer enésima parte até o valor 1000.     |      2      |    1   |       US6       |    Aguardando   |
-|   6  |    Média    | Como usuário da calculadora, quero definir a enésima parte e o padrão que deseja acrescer.  |      3      |    1   |       US8       |    Aguardando   |
-|   7  |    Baixa    | Como usuário da calculadora, quero gerar a sequência de Fibonacci mostrando a quantidade de termos que desejar. |      2      |    1   |       US1       |    Aguardando   |
-|   8  |    Baixa    | Como usuário da calculadora, quero gerar uma sequência de números primos até o decimo termo.|      4      |    1   |       US3       |    Aguardando   |
-|   9  |    Baixa    | Como usuário da calculadora, quero gerar a sequência de Tribonacci mostrando a quantidade de termos que desejar.  |      2      |    1   |       US9       |    Aguardando   |
+|   2  |    Alta    | Como usuário da calculadora, quero calcular o fatorial de um determinado número              |      2      |    1   |       US4       |    Sprint 1   |
+|   3  |    Alta    | Como usuário da calculadora, quero inserir o primeiro termo e a razão e o número do termo que deseja descobrir.       |      2      |    1   |       US7      |    Sprint 1   |
+|   4  |    Média  | Como usuário da calculadora, quero determinar o quadrado de qualquer enésima parte até o resultado seja igual ou menor ao número 100  |      2      |    2   |   US5  |    Aguardando   |
+|   5  |    Média    | Como usuário da calculadora, quero determinar o cubo de qualquer enésima parte até o valor 1000.     |      2      |   2   |       US6       |    Aguardando   |
+|   6  |    Média    | Como usuário da calculadora, quero definir a enésima parte e o padrão que deseja acrescer.  |      3      |    2  |       US8       |    Aguardando   |
+|   7  |    Baixa    | Como usuário da calculadora, quero gerar a sequência de Fibonacci mostrando a quantidade de termos que desejar. |      2      |    3   |       US1       |    Aguardando   |
+|   8  |    Baixa    | Como usuário da calculadora, quero gerar uma sequência de números primos até o decimo termo.|      4      |    3   |       US3       |    Aguardando   |
+|   9  |    Baixa    | Como usuário da calculadora, quero gerar a sequência de Tribonacci mostrando a quantidade de termos que desejar.  |      2      |    3   |       US9       |    Aguardando   |
 
 ---
 
@@ -83,7 +83,7 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 
 ## 💻 Tecnologias <a id="tecnologias"></a>
 
-<h4 align="center">
+<h4 align="left">
 <ul>
 <li>Visual G</li>
 <li>GitHub</li>
