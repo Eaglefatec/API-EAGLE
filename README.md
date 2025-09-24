@@ -17,10 +17,6 @@
 </p>
 
 > Status do Projeto: Sprint 1/3 
->
-> Pasta de Documentação: [Link](docs/cliente) 📄
-> 
-> Video do Projeto:  [Youtube](https://youtu.be/IndOPnzHyrQ) 📽️
 
 ## 🏅 Desafio <a id="desafio"></a>
 
@@ -43,32 +39,32 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 
 ## 📋 Backlog do Produto <a id="backlog"></a>
 
-| Rank | Prioridade | User Story                                                                                                                                                                                                     | Story Points | Sprint | Requisito do Cliente | Status |
+| Rank | Prioridade | User Story| Story Points | Sprint | Requisito do Cliente | Status |
 | :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :------------------: | :----: |
-|   1  |    Alta    | Como usuário da calculadora, quero informar uma determinada posição da sequência triangular e obter o valor correspondente àquela posição.                                                                                            |      14      |    1   |          US2         |    Sprint 1   |
-|   2  |    Alta    | Como usuário da calculadora, quero calcular o fatorial de um determinado número                                                                      |      47      |    1   |       US4       |    Sprint 1   |
-|   2  |    Alta    | Como usuário da calculadora, quero inserir o primeiro termo e a razão e o número do termo que deseja descobrir.                                                                      |      47      |    1   |       US7       |    Sprint 1   |
-|   2  |    Média    | Como usuário da calculadora, quero determinar o quadrado de qualquer enésima parte até o resultado seja igual ou menor ao número 100                                                                     |      47      |    1   |       US5       |    Aguardando   |
-|   2  |    Média    | Como usuário da calculadora, quero determinar o cubo de qualquer enésima parte até o valor 1000.                                                                      |      47      |    1   |       US6       |    Aguardando   |
-|   2  |    Média    | Como usuário da calculadora, quero definir a enésima parte e o padrão que deseja acrescer.                                                                      |      47      |    1   |       US8       |    Aguardando   |
-|   2  |    Baixa    | Como usuário da calculadora, quero gerar a sequência de Fibonacci mostrando a quantidade de termos que desejar.                                                                      |      47      |    1   |       US1       |    Aguardando   |
-|   2  |    Baixa    | Como usuário da calculadora, quero gerar uma sequência de números primos até o decimo termo.                                                                      |      47      |    1   |       US3       |    Aguardando   |
-|   2  |    Baixa    | Como usuário da calculadora, quero gerar a sequência de Tribonacci mostrando a quantidade de termos que desejar.                                                                      |      47      |    1   |       US9       |    Aguardando   |
+|   1  |    Alta    | Como usuário da calculadora, quero informar uma determinada posição da sequência triangular e obter o valor correspondente àquela posição.|      2      |    1   |          US2    |    Sprint 1   |
+|   2  |    Alta    | Como usuário da calculadora, quero calcular o fatorial de um determinado número            |      2      |    1   |       US4       |    Sprint 1   |
+|   3  |    Alta    | Como usuário da calculadora, quero inserir o primeiro termo e a razão e o número do termo que deseja descobrir.       |      2      |    1   |       US7       |    Sprint 1   |
+|   4  |    Média    | Como usuário da calculadora, quero determinar o quadrado de qualquer enésima parte até o resultado seja igual ou menor ao número 100                                                                     |      2      |    1   |       US5       |    Aguardando   |
+|   5  |    Média    | Como usuário da calculadora, quero determinar o cubo de qualquer enésima parte até o valor 1000.     |      2      |    1   |       US6       |    Aguardando   |
+|   6  |    Média    | Como usuário da calculadora, quero definir a enésima parte e o padrão que deseja acrescer.  |      3      |    1   |       US8       |    Aguardando   |
+|   7  |    Baixa    | Como usuário da calculadora, quero gerar a sequência de Fibonacci mostrando a quantidade de termos que desejar. |      2      |    1   |       US1       |    Aguardando   |
+|   8  |    Baixa    | Como usuário da calculadora, quero gerar uma sequência de números primos até o decimo termo.|      4      |    1   |       US3       |    Aguardando   |
+|   9  |    Baixa    | Como usuário da calculadora, quero gerar a sequência de Tribonacci mostrando a quantidade de termos que desejar.  |      2      |    1   |       US9       |    Aguardando   |
 
 ---
 
 ## 🏃‍ DoR - Definition of Ready <a id="dor"></a>
 
 * User Stories com **Critérios de Aceitação**
-* Subtarefas divididas **a partir das US**
+* Subtarefas divididas entre os membros **a partir das US**
 * GitHub
+* Projeto Kanban ([Acesso](https://github.com/orgs/Eaglefatec/projects/2))
+* Planilha MVP ([Acesso](https://docs.google.com/spreadsheets/d/1M1ZwghbbgrjCUZZuRtn6s-Hxy1AdoOSOHDhvVaa5RNc/edit?gid=1289789083#gid=1289789083))
 
 ## 🏆 DoD - Definition of Done <a id="dod"></a>
 
-* Manual de Usuário
-* Manual da Aplicação
 * Código completo
-* Vídeos de cada etapa de entrega
+* README atualizado
 
 ---
 
@@ -76,9 +72,14 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 
 | Sprint          |    Período    | Documentação                                     |
 | --------------- | :-----------: | ------------------------------------------------ |
-| 🔖 **SPRINT 1** | 10/03 - 30/03 | [Sprint 1 Docs](./docs/processo/sprints/sprint-1/README.md) |
-| 🔖 **SPRINT 2** | 07/04 - 27/04 | [Sprint 2 Docs](./docs/processo/sprints/sprint-2/README.md) |
-| 🔖 **SPRINT 3** | 05/05 - 25/05 | [Sprint 3 Docs](./docs/processo/sprints/sprint-3/README.md) |
+| 🔖 **Kick-off Geral** | 25/08 - 29/08 | Link p/ pdf do kickoff |
+| 🔖 **SPRINT 1** | 08/09 - 28/09 | - |
+| 🔖 **Sprint Review/Planning** | 29/09 - 03/10 | - |
+| 🔖 **SPRINT 2** | 06/10 - 26/10 | - |
+| 🔖 **Sprint Review/Planning** | 27/10 - 31/10 | - |
+| 🔖 **SPRINT 3** | 03/11 - 23/11 | - |
+| 🔖 **Sprint Review/Planning** | 24/11 - 28/11 | - |
+| 🔖 **Feira de Soluções** | 04/12 | - |
 
 ## 💻 Tecnologias <a id="tecnologias"></a>
 
@@ -96,12 +97,7 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 ### 🛠 Pré-requisitos
 
 - Git ([Download](https://git-scm.com/downloads))
-
 - Visual_G ([Download](https://sourceforge.net/projects/visualg30/))
-
-- Projeto Kanban ([Acesso](https://github.com/orgs/Eaglefatec/projects/2))
-
-- Planilha MVP ([Acesso](https://docs.google.com/spreadsheets/d/1M1ZwghbbgrjCUZZuRtn6s-Hxy1AdoOSOHDhvVaa5RNc/edit?gid=1289789083#gid=1289789083))
 
 
 ---
@@ -142,19 +138,19 @@ git clone https://github.com/Eaglefatec/API-EAGLE.git
       <td>Renan Diniz</td>
       <td>Product Owner</td>
       <td><a href="https://github.com/renandiniz8"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="https://www.linkedin.com/in/ivan-duarte-982532217"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+      <td><a href="https://www.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
     <tr>
       <td>Alessandro Cabral</td>
       <td>Scrum Master</td>
       <td><a href="https://github.com/alessandrocabralfatec"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="https://br.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+      <td><a href="https://www.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
     <tr>
       <td>Bruna Matsuda</td>
       <td>Desenvolvedor</td>
       <td><a href="https://github.com/brunakaory"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="https://br.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+      <td><a href="https://www.linkedin.com/in/brunamatsuda1"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
     <tr>
       <td>Danieli Gibin</td>
