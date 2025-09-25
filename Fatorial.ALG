@@ -1,22 +1,34 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 21/09/2025
 Var
-// Seção de Declarações das variáveis 
-   i, numero, fatorial: inteiro
-
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+   fatorial: real
+   numero, i: inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-    escreval ("digite um número de 0 a 12")
-    leia (numero)
-    fatorial <- numero
-    para i de 2 até numero faça
-    fatorial <- fatorial*(i-1)
-    fimpara
-    escreva ("O fatorial é igual a:", fatorial)
-    
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   ESCREVAL ("Essa funcionalidadde irÃ¡ calcular o fatorial de um determinado nÃºmero.")
+   escreval ("Digite um nÃºmero de 0 a 17:")
+   escreval("")
+   leia (numero)
+   
+   enquanto (numero < 0) ou (numero > 17) faca
+      escreval ("Digite um nÃºmero de 0 a 17:")
+      escreval("")
+      leia (numero)
+      limpatela
+   fimenquanto
+   fatorial <- numero
+   se (numero= 0) entao
+      fatorial<-1
+   fimse
+   para i de 2 atÃ© numero faÃ§a
+      fatorial <- fatorial*(i-1)
+   fimpara
+   escreva ("O fatorial Ã© igual a:", fatorial)
+
 
 Fimalgoritmo
