@@ -1,13 +1,20 @@
 Algoritmo "EQUIPE EAGLE"
+//
+//
 
 Var
+    //Variaveis Menu
+   opcao,travar:inteiro
+   
+   //Variaveis 2 - Fatorial
+   fatorial: real
+   numero, i: inteiro
 
-   opcao:inteiro
-   travar: inteiro
 
 Inicio
 
    enquanto opcao <>10 faca
+   
       escreval ("SEJA BEM-VINDO(A) A CALCULADORA DA EQUIPE EAGLE")
       escreval ("")
       escreval ("01 - SequÃªncia TriÃ¢ngular")
@@ -32,6 +39,26 @@ Inicio
 
       se opcao =2 entao
          escreval ("VocÃª escolheu a opÃ§Ã£o 02 - SequÃªncia Fatorial")
+         // Seção de Comandos, procedimento, funções, operadores, etc...
+         ESCREVAL ("Essa funcionalidadde irá calcular o fatorial de um determinado número.")
+         escreval ("Digite um número de 0 a 17:")
+         escreval("")
+         leia (numero)
+
+         enquanto (numero < 0) ou (numero > 17) faca
+            escreval ("Digite um número de 0 a 17:")
+            escreval("")
+            leia (numero)
+            limpatela
+         fimenquanto
+         fatorial <- numero
+         se (numero= 0) entao
+            fatorial<-1
+         fimse
+         para i de 2 até numero faça
+            fatorial <- fatorial*(i-1)
+         fimpara
+         escreva ("O fatorial é igual a:", fatorial)
          escreval ("Pressione ENTER novamente caso queira retornar ao MENU!")
       fimse
 
