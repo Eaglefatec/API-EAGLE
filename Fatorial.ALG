@@ -24,5 +24,5 @@ Inicio
    para i de 2 ate EntradaFatorial faça
       SaidaFatorial <- SaidaFatorial*(i-1)
    fimpara
-   escreva ("O fatorial e igual a:", SaidaFatorial)
+   escreva ("O fatorial de",EntradaFatorial," e igual a:", SaidaFatorial)
 Fimalgoritmo
