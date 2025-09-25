@@ -1,23 +1,27 @@
 Algoritmo "Sequencia triangular"
 
-// Descrição   : Quero informar uma determinada posição da sequência triangular
-// e obter o valor correspondente àquela posição.
+// DescriÃ§Ã£o   : Quero informar uma determinada posiÃ§Ã£o da sequÃªncia triangular
+// e obter o valor correspondente Ã quela posiÃ§Ã£o.
 
 // Autor(a)    : GrupoEagle
 // Data atual  : 15/09/2025
 Var
-   // Seção de Declarações das variáveis
-   n, triangular: real
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+   n: inteiro
+   triangular: real
 Inicio
 
 
-   escreva("Informe a posição da sequência triangular: ")
+   escreva("Informe a posiÃ§Ã£o da sequÃªncia triangular: ")
    leia(n)
+   limpatela
+   enquanto (n <= 0) faca
+      escreval("NÃºmero",n," InvÃ¡lido! Informe um nÃºmero inteiro positivo.")
+      leia (n)
+      limpatela
+   fimenquanto
 
-        se (n <= 0) entao
-         escreval("Entrada inválida! Informe um número inteiro positivo.")
-      senao
-         triangular <- (n * (n + 1)) / 2
-         escreval("O número triangular na posição ", n, " é: ", triangular)
-      fimse
+   triangular <- (n * (n + 1)) / 2
+   escreval("O nÃºmero triangular na posiÃ§Ã£o ", n, " Ã©: ", triangular)
+
 Fimalgoritmo
