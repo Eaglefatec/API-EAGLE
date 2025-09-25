@@ -2,27 +2,27 @@ Algoritmo "Fatorial"
 
 Var
    // Seção de Declarações das variáveis
-   fatorial: real
-   numero, i: inteiro
+   SaidaFatorial: real
+   EntradaFatorial, i: inteiro
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
    ESCREVAL ("Essa funcionalidade ira calcular o fatorial de um determinado numero.")
    escreval ("Digite um numero de 0 a 17:")
    escreval("")
-   leia (numero)
+   leia (EntradaFatorial)
    limpatela
-   enquanto (numero < 0) ou (numero > 17) faca
-      escreval ("Voce digitou o numero:",numero,". Digite um numero de 0 a 17:")
+   enquanto (EntradaFatorial < 0) ou (EntradaFatorial > 17) faca
+      escreval ("Voce digitou o numero:",EntradaFatorial,". Digite um numero de 0 a 17:")
       escreval("")
-      leia (numero)
+      leia (EntradaFatorial)
       limpatela
    fimenquanto
-   fatorial <- numero
-   se (numero= 0) entao
-      fatorial<-1
+   SaidaFatorial <- EntradaFatorial
+   se (EntradaFatorial= 0) entao
+      SaidaFatorial<-1
    fimse
-   para i de 2 ate numero faça
-      fatorial <- fatorial*(i-1)
+   para i de 2 ate EntradaFatorial faça
+      SaidaFatorial <- SaidaFatorial*(i-1)
    fimpara
-   escreva ("O fatorial e igual a:", fatorial)
+   escreva ("O fatorial e igual a:", SaidaFatorial)
 Fimalgoritmo
