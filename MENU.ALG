@@ -54,7 +54,7 @@ Inicio
          SaidaTriangular <- (EntradaTriangular * (EntradaTriangular + 1)) / 2
          escreval ("O numero triangular na posicao ", EntradaTriangular, " é: ", SaidaTriangular)
          escreval ("")
-         escreval ("Pressione ENTER novamente caso queira retornar ao MENU!")
+         escreval ("Pressione ENTER novamente para retornar ao MENU!")
       fimse
 
       se opcao =2 entao
@@ -79,11 +79,11 @@ Inicio
          fimpara
          escreva ("O fatorial de",EntradaFatorial," e igual a:", SaidaFatorial)
          escreval ("")
-         escreval ("Pressione ENTER novamente caso queira retornar ao MENU!")
+         escreval ("Pressione ENTER novamente para retornar ao MENU!")
       fimse
 
       se opcao =3 entao
-         escreval ("")
+         escreval ("Voce escolheu a opcao 03 - Sequencia Geometrica")
          escreval ("Para calcular o crescimento exponencial atraves de razao constante")
          escreval ("Ex: Juros compostos, crescimentos populacionais, etc")
          escreval ("")
@@ -101,43 +101,43 @@ Inicio
          escreval(" e constante igual a", ConstanteGeometrica)
          escreval ("O resultado e", SaidaGeometrica)
          escreval ("")
-         escreval ("Pressione ENTER novamente caso queira retornar ao MENU!")
+         escreva ("Pressione ENTER novamente para retornar ao MENU!")
       fimse
 
       se opcao =4 entao
          escreval ("Voce escolheu a opcao 04 - Sequencia de Quadrados Perfeitos")
-         escreval ("")
-         escreval ("Pressione ENTER novamente caso queira retornar ao MENU!")
+         escreval ("Funcao em desenvolvimento")
+         escreval ("Pressione ENTER novamente para retornar ao MENU!")
       fimse
 
       se opcao =5 entao
-         escreval ("Voce escolheu a opca£o 05 - Sequencia de Cubos")
-         escreval ("")
-         escreval ("Pressione ENTER novamente caso queira retornar ao MENU!")
+         escreval ("Voce escolheu a opcao 05 - Sequencia de Cubos")
+         escreval ("Funcao em desenvolvimento")
+         escreval ("Pressione ENTER novamente para retornar ao MENU!")
       fimse
 
       se opcao =6 entao
          escreval ("Voce escolheu a opcao 06 - (P.A) Progressaoo Aritimetica")
-         escreval ("")
-         escreval ("Pressione ENTER novamente caso queira retornar ao MENU!")
+         escreval ("Funcao em desenvolvimento")
+         escreval ("Pressione ENTER novamente para retornar ao MENU!")
       fimse
 
       se opcao =7 entao
          escreval ("Voce escolheu a opcao 07 - Fibonacci")
-         escreval ("")
-         escreval ("Pressione ENTER novamente caso queira retornar ao MENU!")
+         escreval ("Funcao em desenvolvimento")
+         escreval ("Pressione ENTER novamente para retornar ao MENU!")
       fimse
 
       se opcao =8 entao
          escreval ("Voce escolheu a opcao 08 - Sequencia de Numeros Primos")
-         escreval ("")
-         escreval ("Pressione ENTER novamente caso queira retornar ao MENU!")
+         escreval ("Funcao em desenvolvimento")
+         escreval ("Pressione ENTER novamente para retornar ao MENU!")
       fimse
 
       se opcao =9 entao
          escreval ("Voce escolheu a opcao 09 - Tribonacci")
-         escreval ("")
-         escreval ("Pressione ENTER novamente caso queira retornar ao MENU!")
+         escreval ("Funcao em desenvolvimento")
+         escreval ("Pressione ENTER novamente para retornar ao MENU!")
       fimse
 
       se opcao =10 entao
