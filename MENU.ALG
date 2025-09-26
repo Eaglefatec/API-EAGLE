@@ -14,6 +14,9 @@ Var
    SaidaFatorial: real
    EntradaFatorial, i: inteiro
 
+   //Variaveis 3 - Sequencia Geometrica
+   SaidaGeometrica, Razao, TermoInicial, ConstanteGeometrica:real
+
 
 Inicio
 
@@ -80,7 +83,23 @@ Inicio
       fimse
 
       se opcao =3 entao
-         escreval ("Voce escolheu a opcao 03 - Sequencia Geometrica")
+         escreval ("")
+         escreval ("Para calcular o crescimento exponencial atraves de razao constante")
+         escreval ("Ex: Juros compostos, crescimentos populacionais, etc")
+         escreval ("")
+         escreval ("Informe o valor do primeiro termo da sequencia")
+         leia (TermoInicial)
+         limpatela
+         escreval ("Informe o valor da razao")
+         leia (Razao)
+         limpatela
+         escreval ("Informe o valor da constante")
+         leia (ConstanteGeometrica)
+         limpatela
+         SaidaGeometrica <- TermoInicial*Razao^(ConstanteGeometrica-1)
+         escreva ("Com o termo inicial igual a",Termoinicial,", razao igual a", Razao)
+         escreval(" e constante igual a", ConstanteGeometrica)
+         escreval ("O resultado e", SaidaGeometrica)
          escreval ("")
          escreval ("Pressione ENTER novamente caso queira retornar ao MENU!")
       fimse
