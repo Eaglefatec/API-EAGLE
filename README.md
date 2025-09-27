@@ -138,7 +138,7 @@ git clone https://github.com/Eaglefatec/API-EAGLE.git
       <td>Renan Diniz</td>
       <td>Product Owner</td>
       <td><a href="https://github.com/renandiniz8"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="https://www.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+      <td><!--<a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>--></td>
     </tr>
     <tr>
       <td>Alessandro Cabral</td>
@@ -153,34 +153,28 @@ git clone https://github.com/Eaglefatec/API-EAGLE.git
       <td><a href="https://www.linkedin.com/in/brunamatsuda1"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
     <tr>
-      <td>Danieli Gibin</td>
-      <td>Desenvolvedor</td>
-      <td><a href="https://github.com/Ribeiro199"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="https://br.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
-    </tr>
-    <tr>
       <td>Helder Costa</td>
       <td>Desenvolvedor</td>
       <td><a href="https://github.com/helderfcosta"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="https://br.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+      <td><!--<a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>--></td>
     </tr>
     <tr>
       <td>Bruno Barreto</td>
       <td>Desenvolvedor</td>
       <td><a href="https://github.com/bbarreto51"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="https://br.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+      <td><!--<a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>--></td></a></td>
     </tr>
     <tr>
       <td>Marcelo Ribeiro</td>
       <td>Desenvolvedor</td>
       <td><a href="https://github.com/Ribeiro199"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="https://br.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+      <td><!--<a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>--></td></a></td>
     </tr>
     <tr>
       <td>Fernando Montero</td>
       <td>Desenvolvedor</td>
       <td><a href="https://github.com/fernandocosta45"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="https://br.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+      <td><!--<a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>--></td></a></td>
     </tr>
   </table>
 </div>
