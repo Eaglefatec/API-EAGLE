@@ -90,7 +90,7 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 ## 📖 Manual de Instalação <a id="manual"></a>
 
 ### 🛠 Pré-requisitos
-
+- Git ([Download](https://git-scm.com/downloads))
 - Visual_G ([Download](https://sourceforge.net/projects/visualg30/))
 
 
