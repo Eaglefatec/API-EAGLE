@@ -11,7 +11,7 @@
   <a href ="#sprint"> Cronograma de Sprints</a>  |
   <a href ="#tecnologias">Tecnologias</a> |
   <a href ="#manual">Manual de Instalação</a>  | 
-  <a href ="#equipe"> Equipe</a> |
+  <a href ="#equipe">Equipe</a> |
 </p>
 
 > Status do Projeto: Sprint 1/3 
@@ -91,7 +91,6 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 
 ### 🛠 Pré-requisitos
 
-- Git ([Download](https://git-scm.com/downloads))
 - Visual_G ([Download](https://sourceforge.net/projects/visualg30/))
 
 
@@ -117,7 +116,7 @@ git clone https://github.com/Eaglefatec/API-EAGLE.git
 
 ### 3. Executar o programa
 
-**1° No Visual_G, abra o arquivo CALCULADORA.ARG presente no nosso GITHUB e baixado pelo gitclone**
+**1° No Visual_G, abra o arquivo **MENU.ALG** presente no nosso GITHUB e baixado pelo gitclone**
 
 ## 🎓 Equipe <a id="equipe"></a>
 
