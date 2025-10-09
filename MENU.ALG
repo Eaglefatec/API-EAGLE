@@ -52,7 +52,7 @@ Inicio
          fimenquanto
 
          SaidaTriangular <- (EntradaTriangular * (EntradaTriangular + 1)) / 2
-         escreval ("O numero triangular na posicao ", EntradaTriangular, " é: ", SaidaTriangular)
+         escreval ("O numero triangular na posicao ", EntradaTriangular, " e: ", SaidaTriangular)
          escreval ("")
          escreval ("Pressione ENTER novamente para retornar ao MENU!")
       fimse
@@ -74,7 +74,7 @@ Inicio
          se (EntradaFatorial= 0) entao
             SaidaFatorial<-1
          fimse
-         para i de 2 ate EntradaFatorial faça
+         para i de 2 ate EntradaFatorial faca
             SaidaFatorial <- SaidaFatorial*(i-1)
          fimpara
          escreva ("O fatorial de",EntradaFatorial," e igual a:", SaidaFatorial)
