@@ -43,9 +43,9 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 
 | Rank | Prioridade | User Story| Story Points | Sprint | Requisito do Cliente | Status |
 | :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :------------------: | :----: |
-|   1  |    Alta    | Como usuário da calculadora, quero informar uma determinada posição da sequência triangular e obter o valor correspondente àquela posição.|      2      |    1   |          US2    |    Sprint 1   |
-|   2  |    Alta    | Como usuário da calculadora, quero calcular o fatorial de um determinado número              |      2      |    1   |       US4       |    Sprint 1   |
-|   3  |    Alta    | Como usuário da calculadora, quero inserir o primeiro termo e a razão e o número do termo que deseja descobrir.       |      2      |    1   |       US7      |    Sprint 1   |
+|   1  |    Alta    | Como usuário da calculadora, quero informar uma determinada posição da sequência triangular e obter o valor correspondente àquela posição.|      2      |    1   |          US2    |    ✅   |
+|   2  |    Alta    | Como usuário da calculadora, quero calcular o fatorial de um determinado número              |      2      |    1   |       US4       |    ✅   |
+|   3  |    Alta    | Como usuário da calculadora, quero inserir o primeiro termo e a razão e o número do termo que deseja descobrir.       |      2      |    1   |       US7      |    ✅   |
 ---
 
 ## 🏃‍ DoR - Definition of Ready <a id="dor"></a>
