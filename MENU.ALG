@@ -1,4 +1,6 @@
 Algoritmo "EQUIPE EAGLE"
+//  
+//  
 //
 //
 
@@ -16,6 +18,9 @@ Var
 
    //Variaveis 3 - Sequencia Geometrica
    SaidaGeometrica, Razao, TermoInicial, ConstanteGeometrica:real
+   
+   //Variaveis 5 - Sequencia de Fibonacci
+   
 
 
 Inicio
