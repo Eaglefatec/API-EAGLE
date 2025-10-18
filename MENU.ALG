@@ -1,6 +1,8 @@
 Algoritmo "EQUIPE EAGLE"
 //
 //
+//
+//
 
 Var
    //Variaveis Menu
@@ -21,136 +23,133 @@ Var
 Inicio
 
    enquanto opcao <>10 faca
+   mudacor ("amarelo","frente")
+mudacor ("azul","fundos")
+limpatela
 
-      escreval ("SEJA BEM-VINDO(A) A CALCULADORA DA EQUIPE EAGLE")
-      escreval ("")
-      escreval ("01 - Sequencia Triangular")
-      escreval ("02 - Sequencia Fatorial")
-      escreval ("03 - Sequencia Geometrica")
-      escreval ("04 - Sequencia de Quadrados Perfeitos ")
-      escreval ("05 - Sequencia de Cubos")
-      escreval ("06 - (P.A) Progressao Aritimetica")
-      escreval ("07 - Fibonacci")
-      escreval ("08 - Sequencia de Numeros Primos")
-      escreval ("09 - Tribonacci")
-      escreval ("10 - SAIR")
-      escreval ("")
-      Escreval ("-----------------------------")
-      leia (opcao)
-      limpatela
+escreval ("SEJA BEM-VINDO(A) A CALCULADORA DA EQUIPE EAGLE")
+escreval ("")
+escreval ("01 - Sequencia Triangular")
+escreval ("02 - Sequencia Fatorial")
+escreval ("03 - Sequencia Geometrica")
+escreval ("04 - Sequencia de Quadrados Perfeitos ")
+escreval ("05 - Sequencia de Cubos")
+escreval ("06 - (P.A) Progressao Aritimetica")
+escreval ("07 - Fibonacci")
+escreval ("08 - Sequencia de Numeros Primos")
+escreval ("09 - Tribonacci")
+escreval ("10 - SAIR")
+escreval ("")
+Escreval ("-----------------------------")
+leia (opcao)
+escolha opcao
+   limpatela
 
-      // Inicio opcao 01
-      se opcao =1 entao
-         escreval ("Voce escolheu a opcao 01 - Sequencia Triangular")
+   // Inicio opcao 01
+caso 1
+   escreval ("Voce escolheu a opcao 01 - Sequencia Triangular")
 
-         escreva("Informe a posicao da sequencia triangular: ")
-         leia(EntradaTriangular)
-         limpatela
-         enquanto (EntradaTriangular <= 0) faca
-            escreval ("Numero",Saida," Invalido! Informe um numero inteiro positivo.")
-            leia (EntradaTriangular)
-            limpatela
-         fimenquanto
-
-         Saida <- (EntradaTriangular * (EntradaTriangular + 1)) / 2
-         escreval ("O numero triangular na posicao ", EntradaTriangular, " e: ", Saida)
-         escreval ("")
-         escreval ("Pressione ENTER novamente para retornar ao MENU!")
-      fimse
-
-      // Inicio opcao 02
-      se opcao =2 entao
-         escreval ("Voce escolheu a opcao 02 - Sequencia Fatorial")
-         escreval ("Essa funcionalidade ira calcular o fatorial de um determinado numero.")
-         escreval ("Digite um numero de 0 a 17:")
-         escreval("")
-         leia (EntradaFatorial)
-         limpatela
-         enquanto (EntradaFatorial < 0) ou (EntradaFatorial > 17) faca
-            escreval ("Voce digitou o numero:",EntradaFatorial,". Digite um numero de 0 a 17:")
-            escreval("")
-            leia (EntradaFatorial)
-            limpatela
-         fimenquanto
-         Saida <- EntradaFatorial
-         se (EntradaFatorial= 0) entao
-            Saida<-1
-         fimse
-         para i de 2 ate EntradaFatorial faca
-            Saida <- Saida*(i-1)
-         fimpara
-         escreva ("O fatorial de",EntradaFatorial," e igual a:", Saida)
-         escreval ("")
-         escreval ("Pressione ENTER novamente para retornar ao MENU!")
-      fimse
-
-      // Inicio opcao 03
-      se opcao =3 entao
-         escreval ("Voce escolheu a opcao 03 - Sequencia Geometrica")
-         escreval ("Para calcular o crescimento exponencial atraves de razao constante")
-         escreval ("Ex: Juros compostos, crescimentos populacionais, etc")
-         escreval ("")
-         escreval ("Informe o valor do primeiro termo da sequencia")
-         leia (TermoInicial)
-         limpatela
-         escreval ("Informe o valor da razao")
-         leia (Razao)
-         limpatela
-         escreval ("Informe o valor da constante")
-         leia (ConstanteGeometrica)
-         limpatela
-         Saida <- TermoInicial*Razao^(ConstanteGeometrica-1)
-         escreva ("Com o termo inicial igual a",Termoinicial,", razao igual a", Razao)
-         escreval(" e constante igual a", ConstanteGeometrica)
-         escreval ("O resultado e", Saida)
-         escreval ("")
-         escreva ("Pressione ENTER novamente para retornar ao MENU!")
-      fimse
-
-      se opcao =4 entao
-         escreval ("Voce escolheu a opcao 04 - Sequencia de Quadrados Perfeitos")
-         escreval ("Funcao em desenvolvimento")
-         escreval ("Pressione ENTER novamente para retornar ao MENU!")
-      fimse
-
-      se opcao =5 entao
-         escreval ("Voce escolheu a opcao 05 - Sequencia de Cubos")
-         escreval ("Funcao em desenvolvimento")
-         escreval ("Pressione ENTER novamente para retornar ao MENU!")
-      fimse
-
-      se opcao =6 entao
-         escreval ("Voce escolheu a opcao 06 - (P.A) Progressaoo Aritimetica")
-         escreval ("Funcao em desenvolvimento")
-         escreval ("Pressione ENTER novamente para retornar ao MENU!")
-      fimse
-
-      se opcao =7 entao
-         escreval ("Voce escolheu a opcao 07 - Fibonacci")
-         escreval ("Funcao em desenvolvimento")
-         escreval ("Pressione ENTER novamente para retornar ao MENU!")
-      fimse
-
-      se opcao =8 entao
-         escreval ("Voce escolheu a opcao 08 - Sequencia de Numeros Primos")
-         escreval ("Funcao em desenvolvimento")
-         escreval ("Pressione ENTER novamente para retornar ao MENU!")
-      fimse
-
-      se opcao =9 entao
-         escreval ("Voce escolheu a opcao 09 - Tribonacci")
-         escreval ("Funcao em desenvolvimento")
-         escreval ("Pressione ENTER novamente para retornar ao MENU!")
-      fimse
-
-      se opcao =10 entao
-         escreval ("SAIR - Pressione ENTER novamente para sair!")
-         escreval ("")
-         escreval ("Equipe EAGLE agradece a preferencia!")
-      fimse
-
-
-      leia (travar)
+   escreva("Informe a posicao da sequencia triangular: ")
+   leia(EntradaTriangular)
+   limpatela
+   enquanto (EntradaTriangular <= 0) faca
+      escreval ("Numero",Saida," Invalido! Informe um numero inteiro positivo.")
+      leia (EntradaTriangular)
       limpatela
    fimenquanto
+
+   Saida <- (EntradaTriangular * (EntradaTriangular + 1)) / 2
+   escreval ("O numero triangular na posicao ", EntradaTriangular, " e: ", Saida)
+   escreval ("")
+   escreval ("Pressione ENTER novamente para retornar ao MENU!")
+
+   // Inicio opcao 02
+caso 2
+   escreval ("Voce escolheu a opcao 02 - Sequencia Fatorial")
+   escreval ("Essa funcionalidade ira calcular o fatorial de um determinado numero.")
+   escreval ("Digite um numero de 0 a 17:")
+   escreval("")
+   leia (EntradaFatorial)
+   limpatela
+   enquanto (EntradaFatorial < 0) ou (EntradaFatorial > 17) faca
+      escreval ("Voce digitou o numero:",EntradaFatorial,". Digite um numero de 0 a 17:")
+      escreval("")
+      leia (EntradaFatorial)
+      limpatela
+   fimenquanto
+   Saida <- EntradaFatorial
+   se (EntradaFatorial= 0) entao
+      Saida<-1
+   fimse
+   para i de 2 ate EntradaFatorial faca
+      Saida <- Saida*(i-1)
+   fimpara
+   escreva ("O fatorial de",EntradaFatorial," e igual a:", Saida)
+   escreval ("")
+   escreval ("Pressione ENTER novamente para retornar ao MENU!")
+
+   // Inicio opcao 03
+caso 3
+   escreval ("Voce escolheu a opcao 03 - Sequencia Geometrica")
+   escreval ("Calcula o crescimento exponencial atraves de razao constante")
+   escreval ("Ex: Juros compostos, crescimentos populacionais, etc")
+   escreval ("")
+   escreval ("Informe o valor do primeiro termo da sequencia")
+   leia (TermoInicial)
+   limpatela
+   escreval ("Informe o valor da razao")
+   leia (Razao)
+   limpatela
+   escreval ("Informe o valor da constante")
+   leia (ConstanteGeometrica)
+   limpatela
+   Saida <- TermoInicial*Razao^(ConstanteGeometrica-1)
+   escreva ("Com o termo inicial igual a",Termoinicial,", razao igual a", Razao)
+   escreval(" e constante igual a", ConstanteGeometrica)
+   escreval ("O resultado e", Saida)
+   escreval ("")
+   escreva ("Pressione ENTER novamente para retornar ao MENU!")
+
+caso 4
+   escreval ("Voce escolheu a opcao 04 - Sequencia de Quadrados Perfeitos")
+   escreval ("Funcao em desenvolvimento")
+   escreval ("Pressione ENTER novamente para retornar ao MENU!")
+
+caso 5
+   escreval ("Voce escolheu a opcao 05 - Sequencia de Cubos")
+   escreval ("Funcao em desenvolvimento")
+   escreval ("Pressione ENTER novamente para retornar ao MENU!")
+
+caso 6
+   escreval ("Voce escolheu a opcao 06 - (P.A) Progressaoo Aritimetica")
+   escreval ("Funcao em desenvolvimento")
+   escreval ("Pressione ENTER novamente para retornar ao MENU!")
+
+caso 7
+   escreval ("Voce escolheu a opcao 07 - Fibonacci")
+   escreval ("Funcao em desenvolvimento")
+   escreval ("Pressione ENTER novamente para retornar ao MENU!")
+
+caso 8
+   escreval ("Voce escolheu a opcao 08 - Sequencia de Numeros Primos")
+   escreval ("Funcao em desenvolvimento")
+   escreval ("Pressione ENTER novamente para retornar ao MENU!")
+
+caso 9
+   escreval ("Voce escolheu a opcao 09 - Tribonacci")
+   escreval ("Funcao em desenvolvimento")
+   escreval ("Pressione ENTER novamente para retornar ao MENU!")
+
+caso 10
+   escreval ("SAIR - Pressione ENTER novamente para sair!")
+   escreval ("")
+   escreval ("Equipe EAGLE agradece a preferencia!")
+outrocaso
+   escreval ("opcao invalida")
+   escreval ("Pressione ENTER novamente para retornar ao MENU!")
+fimescolha
+
+leia (travar)
+limpatela
+fimenquanto
 Fimalgoritmo
