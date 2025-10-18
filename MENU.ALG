@@ -8,14 +8,14 @@ Var
 
    // Variaveis 1 - Triangular
    EntradaTriangular: inteiro
-   SaidaTriangular: real
+   //Saida: real
 
    //Variaveis 2 - Fatorial
-   SaidaFatorial: real
+   //Saida: real
    EntradaFatorial, i: inteiro
 
    //Variaveis 3 - Sequencia Geometrica
-   SaidaGeometrica, Razao, TermoInicial, ConstanteGeometrica:real
+   Saida, Razao, TermoInicial, ConstanteGeometrica:real
 
 
 Inicio
@@ -39,6 +39,7 @@ Inicio
       leia (opcao)
       limpatela
 
+      // Inicio opcao 01
       se opcao =1 entao
          escreval ("Voce escolheu a opcao 01 - Sequencia Triangular")
 
@@ -46,20 +47,21 @@ Inicio
          leia(EntradaTriangular)
          limpatela
          enquanto (EntradaTriangular <= 0) faca
-            escreval ("Numero",SaidaTriangular," Invalido! Informe um numero inteiro positivo.")
+            escreval ("Numero",Saida," Invalido! Informe um numero inteiro positivo.")
             leia (EntradaTriangular)
             limpatela
          fimenquanto
 
-         SaidaTriangular <- (EntradaTriangular * (EntradaTriangular + 1)) / 2
-         escreval ("O numero triangular na posicao ", EntradaTriangular, " e: ", SaidaTriangular)
+         Saida <- (EntradaTriangular * (EntradaTriangular + 1)) / 2
+         escreval ("O numero triangular na posicao ", EntradaTriangular, " e: ", Saida)
          escreval ("")
          escreval ("Pressione ENTER novamente para retornar ao MENU!")
       fimse
 
+      // Inicio opcao 02
       se opcao =2 entao
          escreval ("Voce escolheu a opcao 02 - Sequencia Fatorial")
-         ESCREVAL ("Essa funcionalidade ira calcular o fatorial de um determinado numero.")
+         escreval ("Essa funcionalidade ira calcular o fatorial de um determinado numero.")
          escreval ("Digite um numero de 0 a 17:")
          escreval("")
          leia (EntradaFatorial)
@@ -70,18 +72,19 @@ Inicio
             leia (EntradaFatorial)
             limpatela
          fimenquanto
-         SaidaFatorial <- EntradaFatorial
+         Saida <- EntradaFatorial
          se (EntradaFatorial= 0) entao
-            SaidaFatorial<-1
+            Saida<-1
          fimse
          para i de 2 ate EntradaFatorial faca
-            SaidaFatorial <- SaidaFatorial*(i-1)
+            Saida <- Saida*(i-1)
          fimpara
-         escreva ("O fatorial de",EntradaFatorial," e igual a:", SaidaFatorial)
+         escreva ("O fatorial de",EntradaFatorial," e igual a:", Saida)
          escreval ("")
          escreval ("Pressione ENTER novamente para retornar ao MENU!")
       fimse
 
+      // Inicio opcao 03
       se opcao =3 entao
          escreval ("Voce escolheu a opcao 03 - Sequencia Geometrica")
          escreval ("Para calcular o crescimento exponencial atraves de razao constante")
@@ -96,10 +99,10 @@ Inicio
          escreval ("Informe o valor da constante")
          leia (ConstanteGeometrica)
          limpatela
-         SaidaGeometrica <- TermoInicial*Razao^(ConstanteGeometrica-1)
+         Saida <- TermoInicial*Razao^(ConstanteGeometrica-1)
          escreva ("Com o termo inicial igual a",Termoinicial,", razao igual a", Razao)
          escreval(" e constante igual a", ConstanteGeometrica)
-         escreval ("O resultado e", SaidaGeometrica)
+         escreval ("O resultado e", Saida)
          escreval ("")
          escreva ("Pressione ENTER novamente para retornar ao MENU!")
       fimse
