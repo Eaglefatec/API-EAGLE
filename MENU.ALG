@@ -1,4 +1,4 @@
-Algoritmo "EQUIPE EAGLE"
+Algoritmo "EQUIPE_EAGLE"
 //
 //
 //
@@ -20,6 +20,9 @@ Var
    // Variaveis - Fibonacci
    primeiro_fibo,segundo_fibo,terceiro_fibo,quantidade_fibo:inteiro
    soma,n:inteiro
+
+   // Variáveis - Tribonacci
+   termo1, termo2, termo3, quantidadetermos, proximotermo: inteiro
 
 
 Inicio
@@ -145,9 +148,30 @@ caso 5
    fimpara
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
+   // Início opção 6 - Tribonacci
 caso 6
    escreval ("Voce escolheu a opcao 06 - Sequencia Tribonacci")
-   escreval ("Funcao em desenvolvimento")
+   escreval ("Digite uma quantidade de termos")
+   leia (quantidadetermos)
+   enquanto (quantidadetermos <3) ou (quantidadetermos>38) faca
+      escreval("Voce digitou",quantidadetermos,". Por favor, digite um número maior que 2 até 38.")
+      escreva ("Digite a nova quantidade:")
+      leia (quantidadetermos)
+      limpatela
+   fimenquanto
+   termo1 <- 0
+   termo2 <- 1
+   termo3 <- 1
+   limpatela
+   escreval ("Sequência de Tribonacci com",quantidadetermos, " ", "termos")
+
+   para i <- 1 até quantidadetermos faca
+      escreval (i,"° termo =",termo1)
+      proximotermo <- termo1 + termo2 + termo3
+      termo1 <- termo2
+      termo2 <- termo3
+      termo3 <- proximotermo
+   fimpara
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
 caso 7
