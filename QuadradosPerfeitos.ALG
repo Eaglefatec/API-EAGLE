@@ -29,7 +29,6 @@ Inicio
       escreval (" =", ResultadoQuadrado)
       iQuadrado <- iQuadrado + 1
       ResultadoQuadrado <- (EntradaQuadrado + iQuadrado) * (EntradaQuadrado + iQuadrado)
-
    fimenquanto
-
+   iQuadrado <- 0
 Fimalgoritmo
