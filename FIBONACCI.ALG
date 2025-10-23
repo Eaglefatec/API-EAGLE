@@ -1,4 +1,6 @@
 Algoritmo "FIBONACCI"
+//  
+//  
 // Descricao   : Calculo da funcao de Fibonacci
 // Autores    : Marcelo Faria Ribeiro e Bruno Barreto
 // Data atual  : 10/10/2025
@@ -16,10 +18,11 @@ Inicio
 
    Escreval ("Digite a quantidade de vezes que deseja calcular.")
    Leia (quantidade_fibo)
-   enquanto quantidade_fibo < 2 faca
-      escreval ("Valor Inválido. Entre com um valor maior que 1")
+   enquanto (quantidade_fibo < 1) ou (quantidade_fibo >46) faca
+      escreval ("Valor Inválido. Entre com um valor de 1 ate 46.")
       leia (quantidade_fibo)
    fimenquanto
+
    limpatela
    Escreval ("")
    Escreval ("Este é o resultado da sequencia:")
