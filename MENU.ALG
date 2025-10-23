@@ -1,6 +1,6 @@
 Algoritmo "EQUIPE EAGLE"
-//  
-//  
+//
+//
 //
 
 Var
@@ -13,9 +13,13 @@ Var
 
    //Variaveis - Sequencia Geometrica
    Razao, ConstanteGeometrica:real
-  
+
    // Variaveis - Quadrados
    EntradaQuadrado, ResultadoQuadrado, iQuadrado: inteiro
+
+   // Variaveis - Fibonacci
+   primeiro_fibo,segundo_fibo,terceiro_fibo,quantidade_fibo:inteiro
+   soma,n:inteiro
 
 
 Inicio
@@ -87,7 +91,7 @@ caso 2
    escreval ("")
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
-   // Inicio opcao 03
+   // Inicio opcao 03 - Geometrica
 caso 3
    escreval ("Voce escolheu a opcao 03 - Sequencia Geometrica")
    escreval ("Calcula o crescimento exponencial atraves de razao constante")
@@ -114,9 +118,31 @@ caso 4
    escreval ("Funcao em desenvolvimento")
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
+   // Início opção 5 - Fibonacci
 caso 5
    escreval ("Voce escolheu a opcao 05 - Sequencia Fibonacci")
-   escreval ("Funcao em desenvolvimento")
+   Escreval ("")
+
+   primeiro_fibo <- 0
+   segundo_fibo <- 1
+
+   Escreval ("Digite a quantidade de vezes que deseja calcular.")
+   Leia (quantidade_fibo)
+   enquanto (quantidade_fibo < 1) ou (quantidade_fibo >46) faca
+      escreval ("Valor Inválido. Entre com um valor de 1 ate 46.")
+      leia (quantidade_fibo)
+   fimenquanto
+
+   limpatela
+   Escreval ("")
+   Escreval ("Este é o resultado da sequencia:")
+
+   para i de 1 ate quantidade_fibo faca
+      Escreval (i,"° termo =",primeiro_fibo)
+      terceiro_fibo <- primeiro_fibo + segundo_fibo
+      primeiro_fibo <- segundo_fibo
+      segundo_fibo <- terceiro_fibo
+   fimpara
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
 caso 6
