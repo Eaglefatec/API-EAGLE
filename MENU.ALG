@@ -116,9 +116,34 @@ caso 3
    escreval ("")
    escreva ("Pressione ENTER novamente para retornar ao MENU!")
 
+   // Início opção 4 - Quadrados Perfeitos
 caso 4
    escreval ("Voce escolheu a opcao 04 - Sequencia de Quadrados Perfeitos")
-   escreval ("Funcao em desenvolvimento")
+   escreva("Insira o primeiro numero da sequencia de quadrados ")
+   escreval("que pretende calcular (numero natural)")
+
+   leia(EntradaQuadrado)
+   limpatela
+   enquanto EntradaQuadrado < 0 faca
+      escreval("Voce digitou o numero [", EntradaQuadrado,"]. O numero deve ser inteiro e positivo")
+      leia(EntradaQuadrado)
+      limpatela
+   fimenquanto
+
+   ResultadoQuadrado <- EntradaQuadrado * EntradaQuadrado
+   se ResultadoQuadrado > 100 entao
+      escreva (EntradaQuadrado + iQuadrado," x",EntradaQuadrado + iQuadrado)
+      escreval (" =", " Resultado maior que 100")
+   senao
+      escreval ("A sequencia de quadrados perfeitos a partir de",EntradaQuadrado," e:")
+   fimse
+   enquanto (ResultadoQuadrado <= 100)  faca
+      escreva (EntradaQuadrado + iQuadrado," x",EntradaQuadrado + iQuadrado)
+      escreval (" =", ResultadoQuadrado)
+      iQuadrado <- iQuadrado + 1
+      ResultadoQuadrado <- (EntradaQuadrado + iQuadrado) * (EntradaQuadrado + iQuadrado)
+   fimenquanto
+   iQuadrado <- 0
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
    // Início opção 5 - Fibonacci
