@@ -1,0 +1,35 @@
+Algoritmo "Tribonacci"
+//
+//
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 22/10/2025
+Var
+   // Seção de Declarações das variáveis
+   i, termo1, termo2, termo3, quantidadetermos, proximotermo: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval ("Digite uma quantidade de termos")
+   leia (quantidadetermos)
+   enquanto (quantidadetermos <3) ou (quantidadetermos>38) faca
+      escreval("Voce digitou",quantidadetermos,". Por favor, digite um número maior que 2 até 38.")
+      escreva ("Digite a nova quantidade:")
+      leia (quantidadetermos)
+      limpatela
+   fimenquanto
+   termo1 <- 0
+   termo2 <- 1
+   termo3 <- 1
+   limpatela
+   escreval ("Sequência de Tribonacci com",quantidadetermos, " ", "termos")
+
+   para i <- 1 até quantidadetermos faca
+      escreval (i,"° termo =",termo1)
+      proximotermo <- termo1 + termo2 + termo3
+      termo1 <- termo2
+      termo2 <- termo3
+      termo3 <- proximotermo
+   fimpara
+
+Fimalgoritmo

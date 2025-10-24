@@ -1,4 +1,6 @@
-Algoritmo "EQUIPE EAGLE"
+Algoritmo "EQUIPE_EAGLE"
+//
+//
 //
 
 Var
@@ -14,6 +16,13 @@ Var
 
    // Variaveis - Quadrados
    EntradaQuadrado, ResultadoQuadrado, iQuadrado: inteiro
+
+   // Variaveis - Fibonacci
+   primeiro_fibo,segundo_fibo,terceiro_fibo,quantidade_fibo:inteiro
+   soma,n:inteiro
+
+   // Variáveis - Tribonacci
+   termo1, termo2, termo3, quantidadetermos, proximotermo: inteiro
 
 
 Inicio
@@ -85,7 +94,7 @@ caso 2
    escreval ("")
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
-   // Inicio opcao 03
+   // Inicio opcao 03 - Geometrica
 caso 3
    escreval ("Voce escolheu a opcao 03 - Sequencia Geometrica")
    escreval ("Calcula o crescimento exponencial atraves de razao constante")
@@ -112,14 +121,57 @@ caso 4
    escreval ("Funcao em desenvolvimento")
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
+   // Início opção 5 - Fibonacci
 caso 5
    escreval ("Voce escolheu a opcao 05 - Sequencia Fibonacci")
-   escreval ("Funcao em desenvolvimento")
+   Escreval ("")
+
+   primeiro_fibo <- 0
+   segundo_fibo <- 1
+
+   Escreval ("Digite a quantidade de vezes que deseja calcular.")
+   Leia (quantidade_fibo)
+   enquanto (quantidade_fibo < 1) ou (quantidade_fibo >46) faca
+      escreval ("Valor Inválido. Entre com um valor de 1 ate 46.")
+      leia (quantidade_fibo)
+   fimenquanto
+
+   limpatela
+   Escreval ("")
+   Escreval ("Este é o resultado da sequencia:")
+
+   para i de 1 ate quantidade_fibo faca
+      Escreval (i,"° termo =",primeiro_fibo)
+      terceiro_fibo <- primeiro_fibo + segundo_fibo
+      primeiro_fibo <- segundo_fibo
+      segundo_fibo <- terceiro_fibo
+   fimpara
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
+   // Início opção 6 - Tribonacci
 caso 6
    escreval ("Voce escolheu a opcao 06 - Sequencia Tribonacci")
-   escreval ("Funcao em desenvolvimento")
+   escreval ("Digite uma quantidade de termos")
+   leia (quantidadetermos)
+   enquanto (quantidadetermos <3) ou (quantidadetermos>38) faca
+      escreval("Voce digitou",quantidadetermos,". Por favor, digite um número maior que 2 até 38.")
+      escreva ("Digite a nova quantidade:")
+      leia (quantidadetermos)
+      limpatela
+   fimenquanto
+   termo1 <- 0
+   termo2 <- 1
+   termo3 <- 1
+   limpatela
+   escreval ("Sequência de Tribonacci com",quantidadetermos, " ", "termos")
+
+   para i <- 1 até quantidadetermos faca
+      escreval (i,"° termo =",termo1)
+      proximotermo <- termo1 + termo2 + termo3
+      termo1 <- termo2
+      termo2 <- termo3
+      termo3 <- proximotermo
+   fimpara
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
 caso 7
