@@ -86,16 +86,16 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 
 ## 📅 Cronograma de Sprints <a id="sprint"></a>
 
-| Sprint          |    Período    | Documentação                                     |
-| --------------- | :-----------: | ------------------------------------------------ |
-| 🔖 **Kick-off Geral** | 25/08 - 29/08 | ([LINK](https://docs.google.com/presentation/d/1Jv5GNm1yZRaDcePn2vc75Z1_0ZIWYYDL/edit?usp=sharing&ouid=112861979363650080047&rtpof=true&sd=true)) |
-| 🔖 **SPRINT 1** | 08/09 - 28/09 | - |
-| 🔖 **Sprint Review/Planning** | 29/09 - 03/10 | - |
-| 🔖 **SPRINT 2** | **06/10 - 26/10** | - |
-| 🔖 **Sprint Review/Planning** | 27/10 - 31/10 | - |
-| 🔖 **SPRINT 3** | 03/11 - 23/11 | - |
-| 🔖 **Sprint Review/Planning** | 24/11 - 28/11 | - |
-| 🔖 **Feira de Soluções** | 04/12 | - |
+| Sprint          						|    Período		| Documentação                                     				|
+| ---------------						| :-----------:		| ------------------------------------------------				|
+| 🔖 **Kick-off Geral**					| 25/08 - 29/08		| ([LINK](https://docs.google.com/presentation/d/1Jv5GNm1yZRaDcePn2vc75Z1_0ZIWYYDL/edit?usp=sharing&ouid=112861979363650080047&rtpof=true&sd=true)) |
+| 🔖 **SPRINT 1**						| 08/09 - 28/09		| [Sprint 1 Docs](./docs/processos/sprints/sprint_1/README.md)  |
+| 🔖 **Sprint Review/Planning**			| 29/09 - 03/10 	| - 															|
+| 🔖 **SPRINT 2**						| **06/10 - 26/10**	| [Sprint 2 Docs](./docs/processos/sprints/sprint_2/README.md)  |
+| 🔖 **Sprint Review/Planning**			| 27/10 - 31/10		| - 															|
+| 🔖 **SPRINT 3**						| 03/11 - 23/11		|  [Sprint 3 Docs](./docs/processos/sprints/sprint_3/README.md) |
+| 🔖 **Sprint Review/Planning**			| 24/11 - 28/11		| - 															|
+| 🔖 **Feira de Soluções**				| 04/12				| - 															|
 
 ---
 
