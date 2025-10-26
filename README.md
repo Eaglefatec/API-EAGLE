@@ -8,13 +8,14 @@
   <a href ="#backlog"> Backlog do Produto</a>  |
   <a href ="#dor">DoR</a>  |
   <a href ="#dod">DoD</a>  |
+  <a href ="#gitrules">Regras do Git</a>  |
   <a href ="#sprint"> Cronograma de Sprints</a>  |
   <a href ="#tecnologias">Tecnologias</a> |
   <a href ="#manual">Manual de Instalação</a>  | 
   <a href ="#equipe">Equipe</a> |
 </p>
 
-> Status do Projeto: Sprint 1/3 
+> Status do Projeto: Sprint 2/3 
 
 ## 🏅 Desafio <a id="desafio"></a>
 
@@ -33,9 +34,13 @@ O desafio consiste em criar uma CALCULADORA DE SEQUÊNCIAS MATEMÁTICAS. Essa ca
 
 A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequência de acordo com a sua necessidade do momento. A versão atualmente desenvolvida já permite a realização das seguintes operações:
 
+1. **Sequência Fibonacci**
 2. Sequência Triangular
 4. Sequência Fatorial
+5. **Sequência de Quadrados Perfeitos**
 7. Sequência Geométrica
+9. **Sequência Tribonacci**
+
 
 ---
 
@@ -43,23 +48,39 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 
 | Rank | Prioridade | User Story| Story Points | Sprint | Requisito do Cliente | Status |
 | :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :------------------: | :----: |
-|   1  |    Alta    | Como usuário da calculadora, quero informar uma determinada posição da sequência triangular e obter o valor correspondente àquela posição.|      2      |    1   |          US2    |    ✅   |
-|   2  |    Alta    | Como usuário da calculadora, quero calcular o fatorial de um determinado número              |      2      |    1   |       US4       |    ✅   |
-|   3  |    Alta    | Como usuário da calculadora, quero inserir o primeiro termo e a razão e o número do termo que deseja descobrir.       |      2      |    1   |       US7      |    ✅   |
+|   1  |    Alta    | [Triangular] Como usuário da calculadora, quero informar uma determinada posição da sequência triangular e obter o valor correspondente àquela posição.|      2      |    1   |    US2    |    ✅   |
+|   2  |    Alta    | [Fatorial] Como usuário da calculadora, quero calcular o fatorial de um determinado número. |      2      |    1   |       US4       |    ✅   |
+|   3  |    Alta    | [Geométrica] Como usuário da calculadora, quero inserir o primeiro termo e a razão e o número do termo que deseja descobrir.  |      2      |    1   |       US7      |    ✅   |
+|   4  |    Média   | [Quadrados] Como usuário da calculadora, quero determinar a sequência de quadrados perfeitos inserindo o número de partida (número natural) e mostrar toda a sequência (número natural + resultado do quadrado) até que o resultado seja igual ou menor ao número 100|      5      |    2   |       US5      |    ⏳   |
+|   5  |    Média   | [Fibonacci] Como usuário da calculadora, quero gerar a sequência de Fibonacci mostrando a quantidade de termos que desejar. |      4      |    2   |       US1      |    ⏳   |
+|   6  |    Média   | [Tribonacci] Como usuário da calculadora, quero gerar a sequência de Tribonacci mostrando a quantidade de termos que desejar. |      4      |    2  |       US9      |    ⏳   |
+|   7  |    Baixa   | [Cubos] Como usuário da calculadora, quero determinar a sequência de cubos perfeitos inserindo o número de partida (número natural) e mostrar toda a sequência (número natural + resultado do cubo) até que o resultado seja igual a 1000.|      ?      |    3  |       US6      |    ⬜   |
+|   8  |    Baixa   | [Alternada] Como usuário da calculadora, quero inserir a quantidade de termos que desejar. |      ?      |    3  |       US8      |    ⬜   |
+|   9  |    Baixa   | [Primos] Como usuário da calculadora, quero gerar uma sequência de números primos com a quantidade que desejar, limitado a apresentação de, no máximo, 20 termos. |      ?      |    3  |       US3      |    ⬜   |
 ---
 
 ## 🏃‍ DoR - Definition of Ready <a id="dor"></a>
 
-* User Stories com **Critérios de Aceitação**
+* User Stories com **Critérios de Aceitação**: ([Acesso](https://docs.google.com/spreadsheets/d/1hGd0Z3hAvSNo7JXuizcFZH_Nrl59FquK3cydQEjPaBA/edit?gid=1941264566#gid=1941264566))
 * Subtarefas divididas entre os membros **a partir das US**
-* GitHub
-* Projeto Kanban ([Acesso](https://github.com/orgs/Eaglefatec/projects/2))
-* Planilha MVP ([Acesso](https://docs.google.com/spreadsheets/d/1M1ZwghbbgrjCUZZuRtn6s-Hxy1AdoOSOHDhvVaa5RNc/edit?gid=1289789083#gid=1289789083))
+* GitHub: ([Acesso](https://github.com/Eaglefatec/API-EAGLE))
+* Projeto Kanban: ([Acesso](https://github.com/orgs/Eaglefatec/projects/2))
 
 ## 🏆 DoD - Definition of Done <a id="dod"></a>
 
 * Código completo
+* Código testado
 * README atualizado
+
+--- 
+
+## 🚦 Regras do Git <a id="gitrules"></a>
+
+1. Nunca faça commit na master sem a anuência do grupo
+2. Nunca faça commit na dev sem a anuência do grupo
+3. Quando iniciar uma alteração, crie uma nova branch a partir da **dev**
+4. Finalizada a alteração, peça um **Pull Request** de sua branch para a branch **dev**. Alguém, do grupo, então, irá validar sua alteração antes de finalizar o Merge/Pull-request
+5. No final da Sprint, a branch **dev** será mesclada (merge) na branch **main**.
 
 ---
 
@@ -67,14 +88,16 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 
 | Sprint          |    Período    | Documentação                                     |
 | --------------- | :-----------: | ------------------------------------------------ |
-| 🔖 **Kick-off Geral** | 25/08 - 29/08 | Link p/ pdf do kickoff |
+| 🔖 **Kick-off Geral** | 25/08 - 29/08 | ([LINK](https://docs.google.com/presentation/d/1Jv5GNm1yZRaDcePn2vc75Z1_0ZIWYYDL/edit?usp=sharing&ouid=112861979363650080047&rtpof=true&sd=true)) |
 | 🔖 **SPRINT 1** | 08/09 - 28/09 | - |
 | 🔖 **Sprint Review/Planning** | 29/09 - 03/10 | - |
-| 🔖 **SPRINT 2** | 06/10 - 26/10 | - |
+| 🔖 **SPRINT 2** | **06/10 - 26/10** | - |
 | 🔖 **Sprint Review/Planning** | 27/10 - 31/10 | - |
 | 🔖 **SPRINT 3** | 03/11 - 23/11 | - |
 | 🔖 **Sprint Review/Planning** | 24/11 - 28/11 | - |
 | 🔖 **Feira de Soluções** | 04/12 | - |
+
+---
 
 ## 💻 Tecnologias <a id="tecnologias"></a>
 
@@ -86,6 +109,8 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 
 </ul>
 </h4>
+
+---
 
 ## 📖 Manual de Instalação <a id="manual"></a>
 
@@ -118,6 +143,8 @@ git clone https://github.com/Eaglefatec/API-EAGLE.git
 
 **1° No Visual_G, abra o arquivo **MENU.ALG** presente no nosso GITHUB e baixado pelo gitclone**
 
+**2° Execute o código do arquivo MENU.ALG.**
+
 ## 🎓 Equipe <a id="equipe"></a>
 
 <div align="center">
@@ -139,12 +166,6 @@ git clone https://github.com/Eaglefatec/API-EAGLE.git
       <td>Scrum Master</td>
       <td><a href="https://github.com/alessandrocabralfatec"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
       <td><a href="https://www.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
-    </tr>
-    <tr>
-      <td>Bruna Matsuda</td>
-      <td>Desenvolvedor</td>
-      <td><a href="https://github.com/brunakaory"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="https://www.linkedin.com/in/brunamatsuda1"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
     <tr>
       <td>Helder Costa</td>
