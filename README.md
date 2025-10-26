@@ -82,6 +82,8 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 4. Finalizada a alteração, peça um **Pull Request** de sua branch para a branch **dev**. Alguém, do grupo, então, irá validar sua alteração antes de finalizar o Merge/Pull-request
 5. No final da Sprint, a branch **dev** será mesclada (merge) na branch **main**.
 
+Mais informações, veja em [Estrutura_Branches](./docs/processos/Estrutura_Branches.md)
+
 ---
 
 ## 📅 Cronograma de Sprints <a id="sprint"></a>
