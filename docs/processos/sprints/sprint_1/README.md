@@ -42,7 +42,7 @@ O desafio consiste em criar uma CALCULADORA DE SEQUÊNCIAS MATEMÁTICAS. Essa ca
 | :------------------------------:		| -------------------------------------------------------------------------------------------------			|
 |       Título Claro   					| É possível entender do que se trata? 																		|
 | Regra de Negócios Claras				| Estão definidos os INPUT  e OUTPUTs da User Story?														|
-| Compreensão validada c/ time			|  Foi realizada reunião com o time para discutir se havia alguma dúvida? 									|
+| Compreensão validada c/ time			| Foi realizada reunião com o time para discutir se havia alguma dúvida? 									|
 |           Sem dependência bloqueadora	| Há algum impedimento para desenvolver? Ex.: desconhecimento da função matemática pelo dev?				|
 |   Estimado pela equipe				| Apesar de não ser avaliado para nota, decidimos que gostaríamos de já começar estimando o esforço do processo	|
 
@@ -52,7 +52,7 @@ O desafio consiste em criar uma CALCULADORA DE SEQUÊNCIAS MATEMÁTICAS. Essa ca
 |                 Critério                 | Descrição                                                                            |
 | :--------------------------------------: | ------------------------------------------------------------------------------------ |
 |     Código funcionando 				   | Todos os cenários de teste da história foram executados e aprovados.			      |
-|     README atualizado				       | Onde aplicável (ex: US07), os dados são corretamente armazenados e recuperáveis.     |
+|     README atualizado				       | -																				      |
 |     Código revisado          			   | O código foi revisado por pelo menos um colega de equipe.                            |
 
 ---
