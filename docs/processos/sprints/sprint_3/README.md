@@ -6,9 +6,9 @@
 
 ---
 
-# Documentação Sprint 1/3
+# Documentação Sprint 3/3
 
-> Status da Sprint: Concluída ✅
+> Status da Sprint: Não iniciada ⬜
 
 ---
 
@@ -31,29 +31,31 @@ O desafio consiste em criar uma CALCULADORA DE SEQUÊNCIAS MATEMÁTICAS. Essa ca
 
 | Rank | Prioridade | User Story| Story Points | Sprint | Requisito do Cliente | Status |
 | :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :------------------: | :----: |
-|   1  |    Alta    | Como usuário da calculadora, quero informar uma determinada posição da sequência triangular e obter o valor correspondente àquela posição.|      2      |    1   |       US2    |    ✅   |
-|   2  |    Alta    | Como usuário da calculadora, quero calcular o fatorial de um determinado número															|      2      |    1   |       US4    |    ✅   |
-|   3  |    Alta    | Como usuário da calculadora, quero inserir o primeiro termo e a razão e o número do termo que deseja descobrir.							|      2      |    1   |       US7    |    ✅   |
+|   7  |    Baixa   | [Cubos] Como usuário da calculadora, quero determinar a sequência de cubos perfeitos inserindo o número de partida (número natural)
+ e mostrar toda a sequência (número natural + resultado do cubo) até que o resultado seja igual a 1000.														|      ?      |    3  |       US6      |    ⬜   |
+|   8  |    Baixa   | [Alternada] Como usuário da calculadora, quero inserir a quantidade de termos que desejar.											|      ?      |    3  |       US8      |    ⬜   |
+|   9  |    Baixa   | [Primos] Como usuário da calculadora, quero gerar uma sequência de números primos com a quantidade que desejar, limitando
+a apresentação de, no máximo, 20 termos.																													|      ?      |    3  |       US3      |    ⬜   |
 ---
 
 ## 🏅 DoR - Definition of Ready <a id="dor"></a>
 
-|             Critério					| Descrição                                                                              					|
-| :------------------------------:		| -------------------------------------------------------------------------------------------------			|
-|       Título Claro   					| É possível entender do que se trata? 																		|
-| Regra de Negócios Claras				| Estão definidos os INPUT  e OUTPUTs da User Story?														|
-| Compreensão validada c/ time			|  Foi realizada reunião com o time para discutir se havia alguma dúvida? 									|
-|           Sem dependência bloqueadora	| Há algum impedimento para desenvolver? Ex.: desconhecimento da função matemática pelo dev?				|
-|   Estimado pela equipe				| Apesar de não ser avaliado para nota, decidimos que gostaríamos de já começar estimando o esforço do processo	|
+|             Critério					| Descrição                                                                              						|
+| :------------------------------:		| -------------------------------------------------------------------------------------------------				|
+|  Título Claro   						| É possível entender do que se trata? 																			|
+| Regra de Negócios Claras				| Estão definidos os INPUT  e OUTPUTs da User Story?															|
+| Compreensão validada c/ time			| Foi realizada reunião com o time para discutir se havia alguma dúvida? 										|
+| Sem dependência bloqueadora			| Há algum impedimento para desenvolver? Ex.: desconhecimento da função matemática pelo dev?					|
+| Estimado pela equipe					| Apesar de não ser avaliado para nota, decidimos que gostaríamos de já começar estimando o esforço do processo	|
 
 
 ## 🏅 DoD - Definition of Done <a id="dod"></a>
 
-|                 Critério                 | Descrição                                                                            |
-| :--------------------------------------: | ------------------------------------------------------------------------------------ |
-|     Código funcionando 				   | Todos os cenários de teste da história foram executados e aprovados.			      |
-|     README atualizado				       | Onde aplicável (ex: US07), os dados são corretamente armazenados e recuperáveis.     |
-|     Código revisado          			   | O código foi revisado por pelo menos um colega de equipe.                            |
+|                 Critério                 | Descrição                                                                           	|
+| :--------------------------------------: | ------------------------------------------------------------------------------------	|
+|     Código funcionando 				   | Todos os cenários de teste da história foram executados e aprovados.			     	|
+|     README atualizado				       | -																						|
+|     Código revisado          			   | O código foi revisado por pelo menos um colega de equipe.                          	|
 
 ---
 
@@ -78,12 +80,6 @@ O desafio consiste em criar uma CALCULADORA DE SEQUÊNCIAS MATEMÁTICAS. Essa ca
       <td>Scrum Master</td>
       <td><a href="https://github.com/alessandrocabralfatec"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
       <td><a href="https://www.linkedin.com/in/alessandro-augusto-ferreira-cabral-9b805553"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
-    </tr>
-    <tr>
-      <td>Bruna Matsuda</td>
-      <td>Desenvolvedor</td>
-      <td><a href="https://github.com/brunakaory"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="https://www.linkedin.com/in/brunamatsuda1"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
     <tr>
       <td>Helder Costa</td>
