@@ -185,7 +185,7 @@ caso 6
       limpatela
    fimenquanto
    termo1 <- 0
-   termo2 <- 1
+   termo2 <- 0
    termo3 <- 1
    limpatela
    escreval ("Sequência de Tribonacci com",quantidadetermos, " ", "termos")
