@@ -8,7 +8,7 @@
 
 # Documentação Sprint 2/3
 
-> Status da Sprint: Em desenvolvimento ⏳
+> Status da Sprint: Aguardando Sprint Review e Retrospectiva ⏳
 
 ---
 
@@ -31,9 +31,9 @@ O desafio consiste em criar uma CALCULADORA DE SEQUÊNCIAS MATEMÁTICAS. Essa ca
 
 | Rank | Prioridade | User Story| Story Points | Sprint | Requisito do Cliente | Status |
 | :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :------------------: | :----: |
-|   4  |    Média   | [Quadrados] Como usuário da calculadora, quero determinar a sequência de quadrados perfeitos inserindo o número de partida (número natural) e mostrar toda a sequência (número natural + resultado do quadrado) até que o resultado seja igual ou menor ao número 100																			|      5      |    2	|       US5      |    ⏳   |
-|   5  |    Média   | [Fibonacci] Como usuário da calculadora, quero gerar a sequência de Fibonacci mostrando a quantidade de termos que desejar.	|      4      |    2	|       US1      |    ⏳   |
-|   6  |    Média   | [Tribonacci] Como usuário da calculadora, quero gerar a sequência de Tribonacci mostrando a quantidade de termos que desejar. |      4      |    2	|       US9      |    ⏳   |
+|   4  |    Média   | [Quadrados] Como usuário da calculadora, quero determinar a sequência de quadrados perfeitos inserindo o número de partida (número natural) e mostrar toda a sequência (número natural + resultado do quadrado) até que o resultado seja igual ou menor ao número 100																			|      5      |    2	|       US5      |    ✅   |
+|   5  |    Média   | [Fibonacci] Como usuário da calculadora, quero gerar a sequência de Fibonacci mostrando a quantidade de termos que desejar.	|      4      |    2	|       US1      |    ✅   |
+|   6  |    Média   | [Tribonacci] Como usuário da calculadora, quero gerar a sequência de Tribonacci mostrando a quantidade de termos que desejar. |      4      |    2	|       US9      |    ✅   |
 ---
 
 ## 🏅 DoR - Definition of Ready <a id="dor"></a>
