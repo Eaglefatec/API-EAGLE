@@ -23,17 +23,17 @@ Var
    primeiro_fibo,segundo_fibo,terceiro_fibo,quantidade_fibo:inteiro
    soma,n:inteiro
 
-   // Variáveis - Tribonacci
+   // Variaveis - Tribonacci
    termo1, termo2, termo3, quantidadetermos, proximotermo: inteiro
 
-  // Variáveis - Cubos
+  // Variaveis - Cubos
   Cubos,SaidaCubos:inteiro
 
 
 Inicio
 
    enquanto opcao <> 10 faca
-   mudacor ("amarelo","frente")
+   mudacor ("branco","frente")
 mudacor ("azul","fundos")
 limpatela
 
@@ -121,7 +121,7 @@ caso 3
    escreval ("")
    escreva ("Pressione ENTER novamente para retornar ao MENU!")
 
-   // Início opção 4 - Quadrados Perfeitos
+   // Inicio opção 4 - Quadrados Perfeitos
 caso 4
    escreval ("Voce escolheu a opcao 04 - Sequencia de Quadrados Perfeitos")
    escreva("Insira o primeiro numero da sequencia de quadrados ")
@@ -151,7 +151,7 @@ caso 4
    iQuadrado <- 0
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
-   // Início opção 5 - Fibonacci
+   // Inicio opção 5 - Fibonacci
 caso 5
    escreval ("Voce escolheu a opcao 05 - Sequencia Fibonacci")
    Escreval ("")
@@ -162,13 +162,13 @@ caso 5
    Escreval ("Digite a quantidade de vezes que deseja calcular.")
    Leia (quantidade_fibo)
    enquanto (quantidade_fibo < 1) ou (quantidade_fibo >46) faca
-      escreval ("Valor Inválido. Entre com um valor de 1 ate 46.")
+      escreval ("Valor Invalido. Entre com um valor de 1 ate 46.")
       leia (quantidade_fibo)
    fimenquanto
 
    limpatela
    Escreval ("")
-   Escreval ("Este é o resultado da sequencia:")
+   Escreval ("Este e o resultado da sequencia:")
 
    para i de 1 ate quantidade_fibo faca
       Escreval (i,"° termo =",primeiro_fibo)
@@ -178,13 +178,13 @@ caso 5
    fimpara
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
-   // Início opção 6 - Tribonacci
+   // Inicio opção 6 - Tribonacci
 caso 6
    escreval ("Voce escolheu a opcao 06 - Sequencia Tribonacci")
    escreval ("Digite uma quantidade de termos")
    leia (quantidadetermos)
    enquanto (quantidadetermos <3) ou (quantidadetermos>38) faca
-      escreval("Voce digitou",quantidadetermos,". Por favor, digite um número maior que 2 até 38.")
+      escreval("Voce digitou",quantidadetermos,". Por favor, digite um numero maior que 2 até 38.")
       escreva ("Digite a nova quantidade:")
       leia (quantidadetermos)
       limpatela
@@ -193,7 +193,7 @@ caso 6
    termo2 <- 0
    termo3 <- 1
    limpatela
-   escreval ("Sequência de Tribonacci com",quantidadetermos, " ", "termos")
+   escreval ("Sequencia de Tribonacci com",quantidadetermos, " ", "termos")
 
    para i <- 1 até quantidadetermos faca
       escreval (i,"° termo =",termo1)
@@ -204,7 +204,7 @@ caso 6
    fimpara
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
-  // Início opção 7 - Cubos
+  // Inicio opção 7 - Cubos
 
 caso 7
    escreval ("Voce escolheu a opcao 07 - Sequencia de Cubos")
@@ -214,7 +214,7 @@ caso 7
    leia(Cubos)
    limpatela
       Se (Cubos < 0) entao
-      Escreval ("Numero digitado foi negativo [",Cubos,"]. Essa é uma entrada invalida")
+      Escreval ("Numero digitado foi negativo [",Cubos,"]. Essa e uma entrada invalida")
       Escreval ("Digite outro numero")
       fimse
    enquanto Cubos < 0 faca
@@ -227,7 +227,7 @@ caso 7
       escreva (Cubos + i," x",Cubos + i, " x ", Cubos + i )
       escreval (" =", " Resultado maior que 1000 ou menor que zero")
    senao
-      escreval ("O resultado da Operação com dado inicial ",Cubos," e:")
+      escreval ("O resultado da Operaçao com dado inicial ",Cubos," e:")
    fimse
    enquanto (SaidaCubos <= 1000) e (SaidaCubos >= 0) faca
       escreva (Cubos + i," x",Cubos + i, " x ", Cubos + i)
