@@ -1,4 +1,6 @@
 Algoritmo "EQUIPE_EAGLE"
+//  
+//  
 //
 //
 //
@@ -23,6 +25,9 @@ Var
 
    // Variáveis - Tribonacci
    termo1, termo2, termo3, quantidadetermos, proximotermo: inteiro
+
+  // Variáveis - Cubos
+  Cubos,SaidaCubos:inteiro
 
 
 Inicio
@@ -199,9 +204,39 @@ caso 6
    fimpara
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
+  // Início opção 7 - Cubos
+
 caso 7
    escreval ("Voce escolheu a opcao 07 - Sequencia de Cubos")
-   escreval ("Funcao em desenvolvimento")
+   escreval ("")
+   escreval(" ---Digite o numero de inicio da sequencia---")
+
+   leia(Cubos)
+   limpatela
+      Se (Cubos < 0) entao
+      Escreval ("Numero digitado foi negativo [",Cubos,"]. Essa é uma entrada invalida")
+      Escreval ("Digite outro numero")
+      fimse
+   enquanto Cubos < 0 faca
+      leia(Cubos)
+      limpatela
+   fimenquanto
+
+   SaidaCubos <- Cubos * Cubos * Cubos
+   se (SaidaCubos > 1000) ou (SaidaCubos < 0) entao
+      escreva (Cubos + i," x",Cubos + i, " x ", Cubos + i )
+      escreval (" =", " Resultado maior que 1000 ou menor que zero")
+   senao
+      escreval ("O resultado da Operação com dado inicial ",Cubos," e:")
+   fimse
+   enquanto (SaidaCubos <= 1000) e (SaidaCubos >= 0) faca
+      escreva (Cubos + i," x",Cubos + i, " x ", Cubos + i)
+      escreval (" =", SaidaCubos)
+      i <- i + 1
+      SaidaCubos <- (Cubos + i) * (Cubos + i) * (Cubos + i)
+   fimenquanto
+   i <- 0
+
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
 caso 8
