@@ -4,26 +4,12 @@ Algoritmo "EQUIPE_EAGLE"
 //
 
 Var
-   //Variaveis Menu
-   opcao,travar:inteiro
+   //Variaveis inteiras
+   opcao,travar,entrada,i,resultado,quantidade,soma,n,sinal:inteiro
+   termo1, termo2, termo3, proximotermo: inteiro
 
-   // Variaveis Globais
-   Entrada, i: inteiro
-   Saida:real
-
-   //Variaveis - Sequencia Geometrica
-   Razao, ConstanteGeometrica:real
-
-   // Variaveis - Quadrados
-   EntradaQuadrado, ResultadoQuadrado, iQuadrado: inteiro
-
-   // Variaveis - Fibonacci
-   primeiro_fibo,segundo_fibo,terceiro_fibo,quantidade_fibo:inteiro
-   soma,n:inteiro
-
-   // Variáveis - Tribonacci
-   termo1, termo2, termo3, quantidadetermos, proximotermo: inteiro
-
+   //Variaveis reais
+   saida,razao,ConstanteGeometrica:real
 
 Inicio
 
@@ -56,16 +42,16 @@ caso 1
    escreval ("Voce escolheu a opcao 01 - Sequencia Triangular")
 
    escreva("Informe a posicao da sequencia triangular: ")
-   leia(Entrada)
+   leia(entrada)
    limpatela
-   enquanto (Entrada <= 0) faca
-      escreval ("Numero",Saida," Invalido! Informe um numero inteiro positivo.")
-      leia (Entrada)
+   enquanto (entrada <= 0) faca
+      escreval ("Numero",saida," Invalido! Informe um numero inteiro positivo.")
+      leia (entrada)
       limpatela
    fimenquanto
 
-   Saida <- (Entrada * (Entrada + 1)) / 2
-   escreval ("O numero triangular na posicao ", Entrada, " e: ", Saida)
+   saida <- (entrada * (entrada + 1)) / 2
+   escreval ("O numero triangular na posicao", entrada, " e:", saida)
    escreval ("")
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
@@ -75,22 +61,22 @@ caso 2
    escreval ("Essa funcionalidade ira calcular o fatorial de um determinado numero.")
    escreval ("Digite um numero de 0 a 17:")
    escreval("")
-   leia (Entrada)
+   leia (entrada)
    limpatela
-   enquanto (Entrada < 0) ou (Entrada > 17) faca
-      escreval ("Voce digitou o numero:",Entrada,". Digite um numero de 0 a 17:")
+   enquanto (entrada < 0) ou (entrada > 17) faca
+      escreval ("Voce digitou o numero:",entrada,". Digite um numero de 0 a 17:")
       escreval("")
-      leia (Entrada)
+      leia (entrada)
       limpatela
    fimenquanto
-   Saida <- Entrada
-   se (Entrada = 0) entao
-      Saida <- 1
+   saida <- entrada
+   se (entrada = 0) entao
+      saida <- 1
    fimse
-   para i de 2 ate Entrada faca
-      Saida <- Saida * (i-1)
+   para i de 2 ate entrada faca
+      saida <- saida * (i-1)
    fimpara
-   escreva ("O fatorial de",Entrada," e igual a:", Saida)
+   escreva ("O fatorial de",entrada," e igual a:", saida)
    escreval ("")
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
@@ -101,97 +87,98 @@ caso 3
    escreval ("Ex: Juros compostos, crescimentos populacionais, etc")
    escreval ("")
    escreval ("Informe o valor do primeiro termo da sequencia")
-   leia (Entrada)
+   leia (entrada)
    limpatela
    escreval ("Informe o valor da razao")
-   leia (Razao)
+   leia (razao)
    limpatela
    escreval ("Informe o valor da constante")
    leia (ConstanteGeometrica)
    limpatela
-   Saida <- Entrada * Razao ^ (ConstanteGeometrica-1)
-   escreva ("Com o termo inicial igual a",Entrada,", razao igual a", Razao)
+   saida <- entrada * razao ^ (ConstanteGeometrica-1)
+   escreva ("Com o termo inicial igual a",entrada,", razao igual a", razao)
    escreval(" e constante igual a", ConstanteGeometrica)
-   escreval ("O resultado e", Saida)
+   escreval ("O resultado e", saida)
    escreval ("")
    escreva ("Pressione ENTER novamente para retornar ao MENU!")
 
-   // Início opção 4 - Quadrados Perfeitos
+   // InÃ­cio opÃ§Ã£o 4 - Quadrados Perfeitos
 caso 4
    escreval ("Voce escolheu a opcao 04 - Sequencia de Quadrados Perfeitos")
    escreva("Insira o primeiro numero da sequencia de quadrados ")
-   escreval("que pretende calcular (numero natural)")
+   escreval("que pretende calcular (Inteiro e Positivo)")
 
-   leia(EntradaQuadrado)
+   leia(entrada)
    limpatela
-   enquanto EntradaQuadrado < 0 faca
-      escreval("Voce digitou o numero [", EntradaQuadrado,"]. O numero deve ser inteiro e positivo")
-      leia(EntradaQuadrado)
+   enquanto entrada < 0 faca
+      escreval("Voce digitou o numero [", entrada,"]. O numero deve ser inteiro e positivo")
+      leia(entrada)
       limpatela
    fimenquanto
 
-   ResultadoQuadrado <- EntradaQuadrado * EntradaQuadrado
-   se ResultadoQuadrado > 100 entao
-      escreva (EntradaQuadrado + iQuadrado," x",EntradaQuadrado + iQuadrado)
+   i <- 0
+
+   resultado <- entrada * entrada
+   se resultado > 100 entao
+      escreva (entrada," x",entrada)
       escreval (" =", " Resultado maior que 100")
    senao
-      escreval ("A sequencia de quadrados perfeitos a partir de",EntradaQuadrado," e:")
+      escreval ("A sequencia de quadrados perfeitos a partir de",entrada," e:")
    fimse
-   enquanto (ResultadoQuadrado <= 100)  faca
-      escreva (EntradaQuadrado + iQuadrado," x",EntradaQuadrado + iQuadrado)
-      escreval (" =", ResultadoQuadrado)
-      iQuadrado <- iQuadrado + 1
-      ResultadoQuadrado <- (EntradaQuadrado + iQuadrado) * (EntradaQuadrado + iQuadrado)
+   enquanto (resultado <= 100)  faca
+      escreva (entrada + i," x",entrada + i)
+      escreval (" =", resultado)
+      i <- i + 1
+      resultado <- (entrada + i) * (entrada + i)
    fimenquanto
-   iQuadrado <- 0
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
-   // Início opção 5 - Fibonacci
+   // InÃ­cio opÃ§Ã£o 5 - Fibonacci
 caso 5
    escreval ("Voce escolheu a opcao 05 - Sequencia Fibonacci")
    Escreval ("")
 
-   primeiro_fibo <- 0
-   segundo_fibo <- 1
+   termo1 <- 0
+   termo2 <- 1
 
    Escreval ("Digite a quantidade de vezes que deseja calcular.")
-   Leia (quantidade_fibo)
-   enquanto (quantidade_fibo < 1) ou (quantidade_fibo >46) faca
-      escreval ("Valor Inválido. Entre com um valor de 1 ate 46.")
-      leia (quantidade_fibo)
+   Leia (quantidade)
+   enquanto (quantidade < 1) ou (quantidade > 46) faca
+      escreval ("Valor InvÃ¡lido. Entre com um valor de 1 ate 46.")
+      leia (quantidade)
    fimenquanto
 
    limpatela
    Escreval ("")
-   Escreval ("Este é o resultado da sequencia:")
+   Escreval ("Este Ã© o resultado da sequencia:")
 
-   para i de 1 ate quantidade_fibo faca
-      Escreval (i,"° termo =",primeiro_fibo)
-      terceiro_fibo <- primeiro_fibo + segundo_fibo
-      primeiro_fibo <- segundo_fibo
-      segundo_fibo <- terceiro_fibo
+   para i de 1 ate quantidade faca
+      Escreval (i,"Â° termo =",termo1)
+      termo3 <- termo1 + termo2
+      termo1 <- termo2
+      termo2 <- termo3
    fimpara
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
-   // Início opção 6 - Tribonacci
+   // InÃ­cio opÃ§Ã£o 6 - Tribonacci
 caso 6
    escreval ("Voce escolheu a opcao 06 - Sequencia Tribonacci")
    escreval ("Digite uma quantidade de termos")
-   leia (quantidadetermos)
-   enquanto (quantidadetermos <3) ou (quantidadetermos>38) faca
-      escreval("Voce digitou",quantidadetermos,". Por favor, digite um número maior que 2 até 38.")
+   leia (quantidade)
+   enquanto (quantidade <3) ou (quantidade>38) faca
+      escreval("Voce digitou",quantidade,". Por favor, digite um nÃºmero maior que 2 atÃ© 38.")
       escreva ("Digite a nova quantidade:")
-      leia (quantidadetermos)
+      leia (quantidade)
       limpatela
    fimenquanto
    termo1 <- 0
    termo2 <- 0
    termo3 <- 1
    limpatela
-   escreval ("Sequência de Tribonacci com",quantidadetermos, " ", "termos")
+   escreval ("SequÃªncia de Tribonacci com",quantidade, " ", "termos")
 
-   para i <- 1 até quantidadetermos faca
-      escreval (i,"° termo =",termo1)
+   para i <- 1 atÃ© quantidade faca
+      escreval (i,"Â° termo =",termo1)
       proximotermo <- termo1 + termo2 + termo3
       termo1 <- termo2
       termo2 <- termo3
@@ -201,7 +188,32 @@ caso 6
 
 caso 7
    escreval ("Voce escolheu a opcao 07 - Sequencia de Cubos")
-   escreval ("Funcao em desenvolvimento")
+   escreval ("")
+   escreval(" ---Digite o numero de inicio da sequencia (Inteiro e positivo)---")
+
+   leia(entrada)
+   limpatela
+   enquanto entrada < 0 faca
+      Escreval ("Numero digitado foi negativo [",entrada,"]. Essa e uma entrada invalida")
+      Escreval ("Digite outro numero inteiro e positivo:")
+      leia(entrada)
+      limpatela
+   fimenquanto
+   i <- 0
+   resultado <- entrada * entrada * entrada
+   se (resultado > 1000) entao
+      escreva (entrada," x",entrada, " x", entrada)
+      escreval (" =", " Resultado maior que 1000")
+   senao
+      escreval ("A sequencia de cubos perfeitos a partir de",entrada," e:")
+   fimse
+   enquanto (resultado <= 1000) e (resultado >= 0) faca
+      escreva (entrada + i," x",entrada + i, " x", entrada + i)
+      escreval (" =", resultado)
+      i <- i + 1
+      resultado <- (entrada + i) * (entrada + i) * (entrada + i)
+   fimenquanto
+
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
 caso 8
@@ -211,7 +223,36 @@ caso 8
 
 caso 9
    escreval ("Voce escolheu a opcao 09 - Sequencia Alternada")
-   escreval ("Funcao em desenvolvimento")
+   escreval ("Insira o primeiro termo")
+   leia(termo1)
+   escreval ("Insira a razao")
+   leia(n)
+
+   se n < 0 entao
+      sinal <- 1
+   senao
+      sinal <- -1
+   fimse
+
+   escreval ("Insira quantos termos deseja visualizar (Valor inteiro e positivo)")
+   leia(quantidade)
+
+   enquanto quantidade <= 0 faca
+      limpatela
+      escreval ("VocÃª inseriu uma quantidade de termos invÃ¡lida:[",quantidade," ]. Digite um valor inteiro e positivo:")
+      leia (quantidade)
+   fimenquanto
+
+   limpatela
+   i <- 0
+
+   escreval ("O primeiro termo selecionado foi:",termo1,". A razÃ£o inserida foi:",razao)
+
+   para i de 1 ate quantidade faca
+      escreval ("O",i,"Â° termo Ã© igual a:",termo1)
+      termo1 <- termo1 * n * sinal
+      i <- i + 1
+   fimpara
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
 caso 10
