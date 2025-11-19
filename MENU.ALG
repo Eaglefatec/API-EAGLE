@@ -21,9 +21,11 @@ Var
    primeiro_fibo,segundo_fibo,terceiro_fibo,quantidade_fibo:inteiro
    soma,n:inteiro
 
-   // Variáveis - Tribonacci
+   // VariÃ¡veis - Tribonacci
    termo1, termo2, termo3, quantidadetermos, proximotermo: inteiro
 
+   // VariÃ¡veis - Alternada
+   quantidade, sinal: inteiro
 
 Inicio
 
@@ -116,7 +118,7 @@ caso 3
    escreval ("")
    escreva ("Pressione ENTER novamente para retornar ao MENU!")
 
-   // Início opção 4 - Quadrados Perfeitos
+   // InÃ­cio opÃ§Ã£o 4 - Quadrados Perfeitos
 caso 4
    escreval ("Voce escolheu a opcao 04 - Sequencia de Quadrados Perfeitos")
    escreva("Insira o primeiro numero da sequencia de quadrados ")
@@ -146,7 +148,7 @@ caso 4
    iQuadrado <- 0
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
-   // Início opção 5 - Fibonacci
+   // InÃ­cio opÃ§Ã£o 5 - Fibonacci
 caso 5
    escreval ("Voce escolheu a opcao 05 - Sequencia Fibonacci")
    Escreval ("")
@@ -157,29 +159,29 @@ caso 5
    Escreval ("Digite a quantidade de vezes que deseja calcular.")
    Leia (quantidade_fibo)
    enquanto (quantidade_fibo < 1) ou (quantidade_fibo >46) faca
-      escreval ("Valor Inválido. Entre com um valor de 1 ate 46.")
+      escreval ("Valor InvÃ¡lido. Entre com um valor de 1 ate 46.")
       leia (quantidade_fibo)
    fimenquanto
 
    limpatela
    Escreval ("")
-   Escreval ("Este é o resultado da sequencia:")
+   Escreval ("Este Ã© o resultado da sequencia:")
 
    para i de 1 ate quantidade_fibo faca
-      Escreval (i,"° termo =",primeiro_fibo)
+      Escreval (i,"Â° termo =",primeiro_fibo)
       terceiro_fibo <- primeiro_fibo + segundo_fibo
       primeiro_fibo <- segundo_fibo
       segundo_fibo <- terceiro_fibo
    fimpara
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
-   // Início opção 6 - Tribonacci
+   // InÃ­cio opÃ§Ã£o 6 - Tribonacci
 caso 6
    escreval ("Voce escolheu a opcao 06 - Sequencia Tribonacci")
    escreval ("Digite uma quantidade de termos")
    leia (quantidadetermos)
    enquanto (quantidadetermos <3) ou (quantidadetermos>38) faca
-      escreval("Voce digitou",quantidadetermos,". Por favor, digite um número maior que 2 até 38.")
+      escreval("Voce digitou",quantidadetermos,". Por favor, digite um nÃºmero maior que 2 atÃ© 38.")
       escreva ("Digite a nova quantidade:")
       leia (quantidadetermos)
       limpatela
@@ -188,10 +190,10 @@ caso 6
    termo2 <- 0
    termo3 <- 1
    limpatela
-   escreval ("Sequência de Tribonacci com",quantidadetermos, " ", "termos")
+   escreval ("SequÃªncia de Tribonacci com",quantidadetermos, " ", "termos")
 
-   para i <- 1 até quantidadetermos faca
-      escreval (i,"° termo =",termo1)
+   para i <- 1 atÃ© quantidadetermos faca
+      escreval (i,"Â° termo =",termo1)
       proximotermo <- termo1 + termo2 + termo3
       termo1 <- termo2
       termo2 <- termo3
@@ -211,7 +213,36 @@ caso 8
 
 caso 9
    escreval ("Voce escolheu a opcao 09 - Sequencia Alternada")
-   escreval ("Funcao em desenvolvimento")
+   escreval ("Insira o primeiro termo")
+   leia(termo1)
+   escreval ("Insira a razao")
+   leia(razao)
+
+   se razao < 0 entao
+      sinal <- 1
+   senao
+      sinal <- -1
+   fimse
+
+   escreval ("Insira quantos termos deseja visualizar (Valor inteiro e positivo)")
+   leia(quantidade)
+
+   enquanto quantidade <= 0 faca
+      limpatela
+      escreval ("VocÃª inseriu um valor invÃ¡lido. Digite um valor inteiro e positivo:")
+      leia (quantidade)
+   fimenquanto
+
+   limpatela
+   i <- 0
+
+   escreval ("O primeiro termo selecionado foi:",termo1,". A razÃ£o inserida foi:",razao)
+
+   para i de 1 ate quantidade faca
+      escreval ("O",i,"Â° termo Ã© igual a:",termo1)
+      termo1 <- termo1 * razao * sinal
+      i <- i + 1
+   fimpara
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
 caso 10
