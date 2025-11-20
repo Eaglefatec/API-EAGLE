@@ -121,7 +121,7 @@ caso 3
    escreval ("")
    escreva ("Pressione ENTER novamente para retornar ao MENU!")
 
-   // Inicio opção 4 - Quadrados Perfeitos
+   // Inicio opcao 4 - Quadrados Perfeitos
 caso 4
    escreval ("Voce escolheu a opcao 04 - Sequencia de Quadrados Perfeitos")
    escreva("Insira o primeiro numero da sequencia de quadrados ")
@@ -151,7 +151,7 @@ caso 4
    iQuadrado <- 0
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
-   // Inicio opção 5 - Fibonacci
+   // Inicio opcao 5 - Fibonacci
 caso 5
    escreval ("Voce escolheu a opcao 05 - Sequencia Fibonacci")
    Escreval ("")
@@ -178,7 +178,7 @@ caso 5
    fimpara
    escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
-   // Inicio opção 6 - Tribonacci
+   // Inicio opcao 6 - Tribonacci
 caso 6
    escreval ("Voce escolheu a opcao 06 - Sequencia Tribonacci")
    escreval ("Digite uma quantidade de termos")
