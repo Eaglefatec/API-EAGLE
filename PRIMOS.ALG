@@ -1,4 +1,6 @@
-Algoritmo "SequenciaPrimosSemLogica"
+Algoritmo "Sequencia_Primos_SemLogica"
+//  
+//  
 Var
    ordinais: vetor[1..20] de caractere
    numeropartida, candidato, countprimos, divisor, qtdDivisores: inteiro
