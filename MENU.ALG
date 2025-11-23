@@ -8,6 +8,12 @@ Var
    //Variaveis reais
    saida,razao,ConstanteGeometrica:real
 
+   // Variaveis primos
+   list: vetor[1..20] de inteiro
+   ordinais: vetor[1..20] de caractere
+   candidato, divisor, countprimos, numeropartida: inteiro
+   ehPrimo: logico
+
 Inicio
 
 mudacor ("amarelo","frente")
@@ -104,7 +110,7 @@ enquanto opcao <> 10 faca
       // Inicio opcao 4 - Quadrados Perfeitos
    caso 4
       escreval ("Voce escolheu a opcao 04 - Sequencia de Quadrados Perfeitos")
-      escreva("Insira o primeiro numero da sequencia de quadrados ")
+      escreval("Insira o primeiro numero da sequencia de quadrados ")
       escreval("que pretende calcular (Inteiro e Positivo)")
 
       leia(entrada)
@@ -217,7 +223,82 @@ enquanto opcao <> 10 faca
 
    caso 8
       escreval ("Voce escolheu a opcao 08 - Sequencia de Numeros Primos")
-      escreval ("Funcao em desenvolvimento")
+      escreval("")
+      
+      Escreval ("Digite a quantidade de termos que deseja apresentar. Máximo 20.")
+      Leia (quantidade)
+      enquanto (quantidade < 1) ou (quantidade > 20) faca
+         escreval ("Valor Invalido. Entre com um valor de 1 ate 20.")
+         leia (quantidade)
+      fimenquanto
+
+      limpatela
+      
+      numeropartida <- 1
+      
+      // Preenche vetor com nomes ordinais
+      ordinais[1] <-  "primeiro"
+      ordinais[2] <-  "segundo"
+      ordinais[3] <-  "terceiro"
+      ordinais[4] <-  "quarto"
+      ordinais[5] <-  "quinto"
+      ordinais[6] <-  "sexto"
+      ordinais[7] <-  "setimo"
+      ordinais[8] <-  "oitavo"
+      ordinais[9] <-  "nono"
+      ordinais[10] <- "decimo"
+      ordinais[11] <- "decimo primeiro"
+      ordinais[12] <- "decimo segundo"
+      ordinais[13] <- "decimo terceiro"
+      ordinais[14] <- "decimo quarto"
+      ordinais[15] <- "decimo quinto"
+      ordinais[16] <- "decimo sexto"
+      ordinais[17] <- "decimo sétimo"
+      ordinais[18] <- "decimo oitavo"
+      ordinais[19] <- "decimo nono"
+      ordinais[20] <- "vigesimo"
+
+      candidato <- numeropartida
+      countprimos <- 0
+
+      enquanto countprimos < quantidade faca
+
+         ehPrimo <- verdadeiro
+
+         // Números menores ou iguais a 1 não são primos
+         se candidato <= 1 entao
+            ehPrimo <- falso
+         senao
+            divisor <- 2
+
+            // Testa divisores até a metade
+            enquanto divisor <= (candidato div 2) faca
+               se (candidato mod divisor = 0) entao
+                  ehPrimo <- falso
+               fimse
+               divisor <- divisor + 1
+            fimenquanto
+         fimse
+
+         // Se for primo, armazena na lista
+         se ehPrimo entao
+            countprimos <- countprimos + 1
+            list[countprimos] <- candidato
+            escreval("Primo encontrado: ", candidato)
+         fimse
+
+         candidato <- candidato + 1
+
+      fimenquanto
+
+      limpatela
+      escreval("==== Lista dos 20 primeiros numeros primos encontrados ====")
+      escreval("")
+
+      // Exibe com os ordinais pedidos
+      para divisor de 1 ate quantidade faca
+         escreval("O ", ordinais[divisor], " primo e = ", list[divisor])
+      fimpara
       escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
    caso 9

@@ -37,10 +37,11 @@ O desafio consiste em criar uma CALCULADORA DE SEQUÊNCIAS MATEMÁTICAS. Essa ca
 
 ## 🏅 Solução <a id="solucao"></a>
 
-A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequência de acordo com a sua necessidade do momento. A versão atualmente desenvolvida já permite a realização das seguintes operações:
+A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequência de acordo com a sua necessidade do momento. A versão atualmente desenvolvida já permite a realização TODAS AS OPERAÇÕES:
 
 1. Sequência Fibonacci
 2. Sequência Triangular
+3. Sequência de Primos
 4. Sequência Fatorial
 5. Sequência de Quadrados Perfeitos
 6. Sequência de Cubos
@@ -55,15 +56,15 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 
 | Rank | Prioridade | User Story| Story Points | Sprint | Requisito do Cliente | Status |
 | :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :------------------: | :----: |
-|   1  |    Alta    | [Triangular] Como usuário da calculadora, quero informar uma determinada posição da sequência triangular e obter o valor correspondente àquela posição.|      2      |    1   |    US2    |    ✅   |
-|   2  |    Alta    | [Fatorial] Como usuário da calculadora, quero calcular o fatorial de um determinado número. |      2      |    1   |       US4       |    ✅   |
-|   3  |    Alta    | [Geométrica] Como usuário da calculadora, quero inserir o primeiro termo e a razão e o número do termo que deseja descobrir.  |      2      |    1   |       US7      |    ✅   |
-|   4  |    Média   | [Quadrados] Como usuário da calculadora, quero determinar a sequência de quadrados perfeitos inserindo o número de partida (número natural) e mostrar toda a sequência (número natural + resultado do quadrado) até que o resultado seja igual ou menor ao número 100|      5      |    2   |       US5      |    ✅   |
-|   5  |    Média   | [Fibonacci] Como usuário da calculadora, quero gerar a sequência de Fibonacci mostrando a quantidade de termos que desejar. |      4      |    2   |       US1      |    ✅   |
-|   6  |    Média   | [Tribonacci] Como usuário da calculadora, quero gerar a sequência de Tribonacci mostrando a quantidade de termos que desejar. |      4      |    2  |       US9      |    ✅   |
-|   7  |    Baixa   | [Cubos] Como usuário da calculadora, quero determinar a sequência de cubos perfeitos inserindo o número de partida (número natural) e mostrar toda a sequência (número natural + resultado do cubo) até que o resultado seja igual a 1000.|      5      |    3  |       US6      |    ✅   |
-|   8  |    Baixa   | [Alternada] Como usuário da calculadora, quero inserir a quantidade de termos que desejar. |      7      |    3  |       US8      |    ⬜   |
-|   9  |    Baixa   | [Primos] Como usuário da calculadora, quero gerar uma sequência de números primos com a quantidade que desejar, limitado a apresentação de, no máximo, 20 termos. |      11      |    3  |       US3      |    ✅   |
+|   1  |    Alta    | [Triangular] Como usuário da calculadora, quero informar uma determinada posição da sequência triangular e obter o valor correspondente àquela posição.			|      2      |    1   |    US2    |    ✅   |
+|   2  |    Alta    | [Fatorial] Como usuário da calculadora, quero calcular o fatorial de um determinado número.																		|      2      |    1   |    US4    |    ✅   |
+|   3  |    Alta    | [Geométrica] Como usuário da calculadora, quero inserir o primeiro termo e a razão e o número do termo que deseja descobrir.										|      2      |    1   |    US7    |    ✅   |
+|   4  |    Média   | [Quadrados] Como usuário da calculadora, quero determinar a sequência de quadrados perfeitos inserindo o número de partida (número natural) e mostrar toda a sequência (número natural + resultado do quadrado) até que o resultado seja igual ou menor ao número 100																												|      5      |    2   |	US5   |    ✅   |
+|   5  |    Média   | [Fibonacci] Como usuário da calculadora, quero gerar a sequência de Fibonacci mostrando a quantidade de termos que desejar. 										|      4      |    2   |    US1    |    ✅   |
+|   6  |    Média   | [Tribonacci] Como usuário da calculadora, quero gerar a sequência de Tribonacci mostrando a quantidade de termos que desejar.										|      4      |    2  |     US9    |    ✅   |
+|   7  |    Baixa   | [Cubos] Como usuário da calculadora, quero determinar a sequência de cubos perfeitos inserindo o número de partida (número natural) e mostrar toda a sequência (número natural + resultado do cubo) até que o resultado seja igual a 1000.																																			|      5      |    3  |     US6    |    ✅  |
+|   8  |    Baixa   | [Alternada] Como usuário da calculadora, quero inserir a quantidade de termos que desejar.																		|      7      |    3  |     US8  |   ✅	|
+|   9  |    Baixa   | [Primos] Como usuário da calculadora, quero gerar uma sequência de números primos com a quantidade que desejar, limitado a apresentação de, no máximo, 20 termos. |      11     |    3  |     US3  |   ✅	|
 ---
 
 ## 🏃‍ DoR - Definition of Ready <a id="dor"></a>
@@ -101,7 +102,7 @@ Mais informações, veja em [Estrutura_Branches](./docs/processos/Estrutura_Bran
 | 🔖 **Kick-off Geral**					| 25/08 - 29/08		| ([LINK](https://docs.google.com/presentation/d/1Jv5GNm1yZRaDcePn2vc75Z1_0ZIWYYDL/edit?usp=sharing&ouid=112861979363650080047&rtpof=true&sd=true)) |
 | 🔖 **SPRINT 1**						| 08/09 - 28/09		| [Sprint 1 Docs](./docs/processos/sprints/sprint_1/README.md)  |
 | 🔖 **Sprint Review/Planning**			| 29/09 - 03/10 	| - 															|
-| 🔖 **SPRINT 2**						| **06/10 - 26/10**	| [Sprint 2 Docs](./docs/processos/sprints/sprint_2/README.md)  |
+| 🔖 **SPRINT 2**						| 06/10 - 26/10	| [Sprint 2 Docs](./docs/processos/sprints/sprint_2/README.md)  |
 | 🔖 **Sprint Review/Planning**			| 27/10 - 31/10		| - 															|
 | 🔖 **SPRINT 3**						| 03/11 - 23/11		|  [Sprint 3 Docs](./docs/processos/sprints/sprint_3/README.md) |
 | 🔖 **Sprint Review/Planning**			| 24/11 - 28/11		| - 															|
