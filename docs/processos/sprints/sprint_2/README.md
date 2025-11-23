@@ -8,7 +8,7 @@
 
 # Documentação Sprint 2/3
 
-> Status da Sprint: Aguardando Sprint Review e Retrospectiva ⏳
+> Status da Sprint: Concluída ✅
 
 ---
 
