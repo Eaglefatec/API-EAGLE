@@ -282,7 +282,7 @@ enquanto opcao <> 10 faca
       fimenquanto
 
       limpatela
-      escreval("==== Lista dos 20 primeiros números primos encontrados ====")
+      escreval("==== Lista dos ",quantidade," primeiros numeros primos encontrados ===")
       escreval("")
 
       // Exibe com os ordinais pedidos
