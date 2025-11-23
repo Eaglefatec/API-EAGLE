@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-Algoritmo "Sequencia_Primos_SemLogica"
-//  
-//  
-Var
-   ordinais: vetor[1..20] de caractere
-   numeropartida, candidato, countprimos, divisor, qtdDivisores: inteiro
-   list: vetor[1..20] de inteiro
-
-Inicio
-   // --- ORDINAIS ---
-=======
 Algoritmo "SequenciaPrimos"
 // Gera os 20 primeiros números primos a partir de um número inicial
 
@@ -22,7 +10,6 @@ Var
 Inicio
 
    // Preenche vetor com nomes ordinais
->>>>>>> cbc242282530b149666da565b26ba4676e7f3ee4
    ordinais[1] <- "primeiro"
    ordinais[2] <- "segundo"
    ordinais[3] <- "terceiro"
@@ -59,19 +46,6 @@ Inicio
 
    enquanto countprimos < 20 faca
 
-<<<<<<< HEAD
-      qtdDivisores <- 0
-
-      // Conta divisores
-      para divisor de 1 ate candidato faca
-         se (candidato mod divisor = 0) entao
-            qtdDivisores <- qtdDivisores + 1
-         fimse
-      fimpara
-
-      // Se tiver exatamente 2 divisores, é primo
-      se qtdDivisores = 2 entao
-=======
       ehPrimo <- verdadeiro
 
       // Números menores ou iguais a 1 não são primos
@@ -91,7 +65,6 @@ Inicio
 
       // Se for primo, armazena na lista
       se ehPrimo entao
->>>>>>> cbc242282530b149666da565b26ba4676e7f3ee4
          countprimos <- countprimos + 1
          list[countprimos] <- candidato
          escreval("Primo encontrado: ", candidato)
