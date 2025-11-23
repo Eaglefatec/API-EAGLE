@@ -2,17 +2,14 @@ Algoritmo "EQUIPE_EAGLE"
 
 Var
    //Variaveis inteiras
-   opcao,travar,entrada,i,resultado,quantidade,soma,n,sinal:inteiro
+   opcao,travar,entrada,i,resultado,quantidade,soma,n,sinal,divisor:inteiro
    termo1, termo2, termo3, proximotermo: inteiro
+   ordinais: vetor[1..20] de caractere
+   list: vetor[1..20] de inteiro
 
    //Variaveis reais
    saida,razao,ConstanteGeometrica:real
 
-   // Variaveis primos
-   list: vetor[1..20] de inteiro
-   ordinais: vetor[1..20] de caractere
-   candidato, divisor, countprimos, numeropartida: inteiro
-   ehPrimo: logico
 
 Inicio
 
@@ -146,7 +143,7 @@ enquanto opcao <> 10 faca
       termo1 <- 0
       termo2 <- 1
 
-      Escreval ("Digite a quantidade de vezes que deseja calcular.")
+      Escreval ("Digite a quantidade de vezes que deseja calcular (entre com um valor de 1 ate 46).")
       Leia (quantidade)
       enquanto (quantidade < 1) ou (quantidade > 46) faca
          escreval ("Valor Invalido. Entre com um valor de 1 ate 46.")
@@ -168,7 +165,7 @@ enquanto opcao <> 10 faca
       // Inicio opcao 6 - Tribonacci
    caso 6
       escreval ("Voce escolheu a opcao 06 - Sequencia Tribonacci")
-      escreval ("Digite uma quantidade de termos")
+      escreval ("Digite uma quantidade de termos (entre com um valor de 2 ate 38)")
       leia (quantidade)
       enquanto (quantidade <3) ou (quantidade>38) faca
          escreval("Voce digitou",quantidade,". Por favor, digite um numero maior que 2 ate 38.")
@@ -191,10 +188,11 @@ enquanto opcao <> 10 faca
       fimpara
       escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
+      // Inicio opcao 7 - Sequencia de cubos
    caso 7
       escreval ("Voce escolheu a opcao 07 - Sequencia de Cubos")
       escreval ("")
-      escreval(" ---Digite o numero de inicio da sequencia (Inteiro e positivo)---")
+      escreval("Digite o numero de inicio da sequencia (Inteiro e positivo)")
 
       leia(entrada)
       limpatela
@@ -221,31 +219,21 @@ enquanto opcao <> 10 faca
 
       escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
+      // Inicio opcao 8 - Sequencia de Numeros primos
    caso 8
       escreval ("Voce escolheu a opcao 08 - Sequencia de Numeros Primos")
       escreval("")
-      
-      Escreval ("Digite a quantidade de termos que deseja apresentar. Máximo 20.")
-      Leia (quantidade)
-      enquanto (quantidade < 1) ou (quantidade > 20) faca
-         escreval ("Valor Invalido. Entre com um valor de 1 ate 20.")
-         leia (quantidade)
-      fimenquanto
 
-      limpatela
-      
-      numeropartida <- 1
-      
-      // Preenche vetor com nomes ordinais
-      ordinais[1] <-  "primeiro"
-      ordinais[2] <-  "segundo"
-      ordinais[3] <-  "terceiro"
-      ordinais[4] <-  "quarto"
-      ordinais[5] <-  "quinto"
-      ordinais[6] <-  "sexto"
-      ordinais[7] <-  "setimo"
-      ordinais[8] <-  "oitavo"
-      ordinais[9] <-  "nono"
+      // --- ORDINAIS ---
+      ordinais[1] <- "primeiro"
+      ordinais[2] <- "segundo"
+      ordinais[3] <- "terceiro"
+      ordinais[4] <- "quarto"
+      ordinais[5] <- "quinto"
+      ordinais[6] <- "sexto"
+      ordinais[7] <- "setimo"
+      ordinais[8] <- "oitavo"
+      ordinais[9] <- "nono"
       ordinais[10] <- "decimo"
       ordinais[11] <- "decimo primeiro"
       ordinais[12] <- "decimo segundo"
@@ -253,57 +241,61 @@ enquanto opcao <> 10 faca
       ordinais[14] <- "decimo quarto"
       ordinais[15] <- "decimo quinto"
       ordinais[16] <- "decimo sexto"
-      ordinais[17] <- "decimo sétimo"
+      ordinais[17] <- "decimo setimo"
       ordinais[18] <- "decimo oitavo"
       ordinais[19] <- "decimo nono"
       ordinais[20] <- "vigesimo"
 
-      candidato <- numeropartida
-      countprimos <- 0
+      Escreval ("Digite a quantidade de termos que deseja apresentar. Maximo 20.")
+      Leia (quantidade)
+      enquanto (quantidade < 1) ou (quantidade > 20) faca
+         escreval ("Valor Invalido. Entre com um valor de 1 ate 20.")
+         leia (quantidade)
+      fimenquanto
 
-      enquanto countprimos < quantidade faca
+      limpatela
 
-         ehPrimo <- verdadeiro
+      // --- VALIDACAO DA ENTRADA ---
 
-         // Números menores ou iguais a 1 não são primos
-         se candidato <= 1 entao
-            ehPrimo <- falso
-         senao
-            divisor <- 2
+      entrada <- 1
+      i <- 0
 
-            // Testa divisores até a metade
-            enquanto divisor <= (candidato div 2) faca
-               se (candidato mod divisor = 0) entao
-                  ehPrimo <- falso
-               fimse
-               divisor <- divisor + 1
-            fimenquanto
+      enquanto i < quantidade faca
+
+         n <- 0
+
+         // Conta divisores
+         para divisor de 1 ate entrada faca
+            se (entrada mod divisor = 0) entao
+               n <- n + 1
+            fimse
+         fimpara
+
+         // Se tiver exatamente 2 divisores, he primo
+         se n = 2 entao
+            i <- i + 1
+            list[i] <- entrada
          fimse
 
-         // Se for primo, armazena na lista
-         se ehPrimo entao
-            countprimos <- countprimos + 1
-            list[countprimos] <- candidato
-            escreval("Primo encontrado: ", candidato)
-         fimse
-
-         candidato <- candidato + 1
+         entrada <- entrada + 1
 
       fimenquanto
 
       limpatela
-      escreval("==== Lista dos 20 primeiros numeros primos encontrados ====")
+      escreval("==== Lista dos 20 primeiros números primos encontrados ====")
       escreval("")
 
       // Exibe com os ordinais pedidos
       para divisor de 1 ate quantidade faca
          escreval("O ", ordinais[divisor], " primo e = ", list[divisor])
       fimpara
+
       escreval ("Pressione ENTER novamente para retornar ao MENU!")
 
+      // Inicio opcao 9 - Sequencia Alternada
    caso 9
       escreval ("Voce escolheu a opcao 09 - Sequencia Alternada")
-      escreval ("Insira o primeiro termo")
+      escreval ("Insira o primeiro termo da sequencia que deseja mostrar")
       leia(termo1)
       escreval ("Insira a razao")
       leia(n)
@@ -326,7 +318,7 @@ enquanto opcao <> 10 faca
       limpatela
       i <- 0
 
-      escreval ("O primeiro termo selecionado foi:",termo1,". A razao inserida foi:",razao)
+      escreval ("O primeiro termo selecionado foi:",termo1,". A razao inserida foi:",n)
 
       para i de 1 ate quantidade faca
          escreval ("Termo[",i,"] =",termo1)
