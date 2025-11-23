@@ -19,7 +19,11 @@
 >
 > Pasta de Documentação: [Link](./docs/KICKOFF_API_1BD_2025-2.pdf) 📄
 > 
-> Video do Projeto:  [Youtube](https://youtu.be/vdz-bBymNzA) 📽️
+> Manual de Instalação: [Youtube](https://www.youtube.com/watch?v=NfE2ycXy6zk) 📽️
+>
+> Video do Projeto (Sprint 2):  [Youtube](https://youtu.be/vdz-bBymNzA) 📽️
+>
+> Video do Projeto (Sprint 3):  [Youtube](https://youtu.be/vdz-bBymNzA) 📽️
 
 
 ## 🏅 Desafio <a id="desafio"></a>
