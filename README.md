@@ -15,7 +15,7 @@
   <a href ="#equipe">Equipe</a> |
 </p>
 
-> Status do Projeto: Sprint 2/3  ⏳ 
+> Status do Projeto: Sprint 3/3  ⏳ 
 >
 > Pasta de Documentação: [Link](./docs/KICKOFF_API_1BD_2025-2.pdf) 📄
 > 
@@ -59,9 +59,9 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 |   4  |    Média   | [Quadrados] Como usuário da calculadora, quero determinar a sequência de quadrados perfeitos inserindo o número de partida (número natural) e mostrar toda a sequência (número natural + resultado do quadrado) até que o resultado seja igual ou menor ao número 100|      5      |    2   |       US5      |    ✅   |
 |   5  |    Média   | [Fibonacci] Como usuário da calculadora, quero gerar a sequência de Fibonacci mostrando a quantidade de termos que desejar. |      4      |    2   |       US1      |    ✅   |
 |   6  |    Média   | [Tribonacci] Como usuário da calculadora, quero gerar a sequência de Tribonacci mostrando a quantidade de termos que desejar. |      4      |    2  |       US9      |    ✅   |
-|   7  |    Baixa   | [Cubos] Como usuário da calculadora, quero determinar a sequência de cubos perfeitos inserindo o número de partida (número natural) e mostrar toda a sequência (número natural + resultado do cubo) até que o resultado seja igual a 1000.|      ?      |    3  |       US6      |    ⬜   |
-|   8  |    Baixa   | [Alternada] Como usuário da calculadora, quero inserir a quantidade de termos que desejar. |      ?      |    3  |       US8      |    ⬜   |
-|   9  |    Baixa   | [Primos] Como usuário da calculadora, quero gerar uma sequência de números primos com a quantidade que desejar, limitado a apresentação de, no máximo, 20 termos. |      ?      |    3  |       US3      |    ⬜   |
+|   7  |    Baixa   | [Cubos] Como usuário da calculadora, quero determinar a sequência de cubos perfeitos inserindo o número de partida (número natural) e mostrar toda a sequência (número natural + resultado do cubo) até que o resultado seja igual a 1000.|      5      |    3  |       US6      |   ✅   |
+|   8  |    Baixa   | [Alternada] Como usuário da calculadora, quero inserir a quantidade de termos que desejar. |      7      |    3  |       US8      |    ✅   |
+|   9  |    Baixa   | [Primos] Como usuário da calculadora, quero gerar uma sequência de números primos com a quantidade que desejar, limitado a apresentação de, no máximo, 20 termos. |      11      |    3  |       US3      |    ✅   |
 ---
 
 ## 🏃‍ DoR - Definition of Ready <a id="dor"></a>
