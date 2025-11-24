@@ -15,15 +15,13 @@
   <a href ="#equipe">Equipe</a> |
 </p>
 
-> Status do Projeto: Sprint 3/3  ⏳ 
+> Status do Projeto: Sprint 3/3  ⏳ - Aguardando Sprint Review 
 >
 > Pasta de Documentação: [Link](./docs/KICKOFF_API_1BD_2025-2.pdf) 📄
-> 
-> Manual de Instalação: [Youtube](https://www.youtube.com/watch?v=NfE2ycXy6zk) 📽️
 >
-> Video do Projeto (Sprint 2):  [Youtube](https://youtu.be/vdz-bBymNzA) 📽️
+> Video do Usuário (Sprint 2):  [Youtube](https://youtu.be/vdz-bBymNzA) 📽️
 >
-> Video do Projeto (Sprint 3):  [Youtube](https://youtu.be/vdz-bBymNzA) 📽️
+> Video do Usuário (Sprint 3):  [Youtube](https://youtu.be/Z9udrXjo-_E) 📽️
 
 
 ## 🏅 Desafio <a id="desafio"></a>
@@ -89,9 +87,9 @@ A Calculadora EAGLE permitirá ao seu usuário gerar seus cálculos de sequênci
 
 ## 🚦 Regras do Git <a id="gitrules"></a>
 
-1. Nunca faça commit na master sem a anuência do grupo
+1. Nunca faça commit na branch **main** sem a anuência do grupo
 2. Nunca faça commit na dev sem a anuência do grupo
-3. Quando iniciar uma alteração, crie uma nova branch a partir da **dev**
+3. Quando iniciar uma alteração, crie uma nova branch a partir da branch **dev**
 4. Finalizada a alteração, peça um **Pull Request** de sua branch para a branch **dev**. Alguém, do grupo, então, irá validar sua alteração antes de finalizar o Merge/Pull-request
 5. No final da Sprint, a branch **dev** será mesclada (merge) na branch **main**.
 
@@ -106,7 +104,7 @@ Mais informações, veja em [Estrutura_Branches](./docs/processos/Estrutura_Bran
 | 🔖 **Kick-off Geral**					| 25/08 - 29/08		| ([LINK](https://docs.google.com/presentation/d/1Jv5GNm1yZRaDcePn2vc75Z1_0ZIWYYDL/edit?usp=sharing&ouid=112861979363650080047&rtpof=true&sd=true)) |
 | 🔖 **SPRINT 1**						| 08/09 - 28/09		| [Sprint 1 Docs](./docs/processos/sprints/sprint_1/README.md)  |
 | 🔖 **Sprint Review/Planning**			| 29/09 - 03/10 	| - 															|
-| 🔖 **SPRINT 2**						| 06/10 - 26/10	| [Sprint 2 Docs](./docs/processos/sprints/sprint_2/README.md)  |
+| 🔖 **SPRINT 2**						| 06/10 - 26/10		| [Sprint 2 Docs](./docs/processos/sprints/sprint_2/README.md)  |
 | 🔖 **Sprint Review/Planning**			| 27/10 - 31/10		| - 															|
 | 🔖 **SPRINT 3**						| 03/11 - 23/11		|  [Sprint 3 Docs](./docs/processos/sprints/sprint_3/README.md) |
 | 🔖 **Sprint Review/Planning**			| 24/11 - 28/11		| - 															|
@@ -144,21 +142,11 @@ git clone https://github.com/Eaglefatec/API-EAGLE.git
 
 ---
 
-### 2. Abrir Visual_G
+### 2. Abrir Visual_G e Executar o código
 
-**1° Baixe o Visual_G no link fornecido acima**
+- Manual de Instalação: [Youtube](https://www.youtube.com/watch?v=NfE2ycXy6zk) 📽️
 
-**2° Extraia o conteúdo do zip**
 
-**3° Execute o Visual_G**
-
----
-
-### 3. Executar o programa
-
-**1° No Visual_G, abra o arquivo **MENU.ALG** presente no nosso GITHUB e baixado pelo gitclone**
-
-**2° Execute o código do arquivo MENU.ALG.**
 
 ## 🎓 Equipe <a id="equipe"></a>
 
