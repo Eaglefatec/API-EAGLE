@@ -32,8 +32,8 @@ O desafio consiste em criar uma CALCULADORA DE SEQUÊNCIAS MATEMÁTICAS. Essa ca
 | Rank | Prioridade | User Story| Story Points | Sprint | Requisito do Cliente | Status |
 | :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :------------------: | :----: |
 |   7  |    Baixa   | [Cubos] Como usuário da calculadora, quero determinar a sequência de cubos perfeitos inserindo o número de partida (número natural) e mostrar toda a sequência (número natural + resultado do cubo) até que o resultado seja igual a 1000.																												|      5      |    3  |       US6      |    ✅   |
-|   8  |    Baixa   | [Alternada] Como usuário da calculadora, quero inserir a quantidade de termos que desejar.											|      7      |    3  |       US8      |    ✅   |
-|   9  |    Baixa   | [Primos] Como usuário da calculadora, quero gerar uma sequência de números primos com a quantidade que desejar, limitando a apresentação de, no máximo, 20 termos.																																							|      11      |    3  |       US3      |    ✅   |
+|   8  |    Baixa   | [Alternada] Como usuário da calculadora, quero determinar a sequência alternada inserindo o primeiro termo, a razão e a quantidade de termos máximo que deve ser exibido.	|      7      |    3  |       US8      |    ✅   |
+|   9  |    Baixa   | [Primos] Como usuário da calculadora, quero gerar uma sequência de números primos com a quantidade que desejar, limitando a apresentação de, no máximo, 20 termos.		|      11      |    3  |       US3      |    ✅   |
 ---
 
 ## 🏅 DoR - Definition of Ready <a id="dor"></a>
